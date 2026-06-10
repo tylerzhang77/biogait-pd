@@ -1,0 +1,11 @@
+{
+  "repo_root": ".",
+  "label_csv": "data/inhouse/labels.csv",
+  "model_xml": "data/models/MS-Human-700_skeleton.xml",
+  "output_root": "outputs",
+  "keypoints_root": "data/inhouse/keypoints",
+  "use_keypoints_fusion": true,
+  "use_advanced_features": true,
+  "random_seed": 42,
+  "cv_splits": 5
+}

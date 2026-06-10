@@ -1,0 +1,4 @@
+dataset,subject,segment_id,gait_label,feature_001,feature_002,feature_003
+InHouse,P001,P001_seg001,0,0.12,1.48,-0.31
+InHouse,P002,P002_seg001,1,0.35,0.92,0.14
+CAREPD_A,S001,S001_seg001,2,-0.44,1.13,0.57

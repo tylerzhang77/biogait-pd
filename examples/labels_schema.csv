@@ -1,0 +1,4 @@
+patient_id,gait_label,retarget_npz
+P001,0,data/inhouse/retargeted_motion/P001_seg001.npz
+P002,1,data/inhouse/retargeted_motion/P002_seg001.npz
+P003,2,data/inhouse/retargeted_motion/P003_seg001.npz

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local data and model artefacts
+data/
+outputs/
+paper/res/
+paper/figures/
+*.npz
+*.npy
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Manuscripts and private documents
+paper/*.docx
+paper/*.pdf
+*.xlsx
+*.xls
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

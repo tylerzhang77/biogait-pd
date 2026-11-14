@@ -1,6 +1,9 @@
 # Data Preparation
 
-This repository is code-only. It intentionally excludes raw videos, in-house clinical records, patient-level derived data, checkpoints and large cached motion files.
+This repository contains executable code, aggregate machine-readable results and an authorized
+set of derived participant-level reproducibility assets. It intentionally excludes raw videos,
+in-house clinical records, the full feature tables, trained checkpoints and large cached motion
+files.
 
 ## Public CARE-PD Data
 
@@ -51,6 +54,15 @@ Each retargeted `.npz` file should contain:
 - `qpos`: an array of shape `(frames, generalized_coordinates)`.
 - `fps`: optional scalar frame rate. If absent, the pipeline assumes 30 Hz.
 
-## Restricted Data
+## Released derived assets and restricted data
 
-The in-house clinical cohort cannot be redistributed because of participant privacy and institutional ethics restrictions. De-identified aggregate summaries, derived features, splits and predictions should be released only when permitted by the governing ethics approval and data-use agreements.
+The release includes author-authorized derived predictions, adaptation split assignments and
+selected-feature inventories under `release/reproducibility_assets/`. These files contain only
+analysis identifiers and derived values; they do not include raw videos, clinical records or
+contact information. Their release remains subject to the governing ethics approval and data-use
+agreements.
+
+The in-house clinical cohort itself cannot be redistributed because of participant privacy and
+institutional data-use restrictions. Raw videos, clinical records, full feature tables and trained
+model checkpoints are therefore not included in the public repository. The public CARE-PD data
+should be obtained from the official provider under its applicable terms.

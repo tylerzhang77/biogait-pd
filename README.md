@@ -2,7 +2,12 @@
 
 BioGait-PD is an interpretable kinematic modelling pipeline for cross-cohort gait-impairment rating prediction. The code in this release supports feature extraction from retargeted skeletal motion, CARE-PD-style leave-one-dataset-out evaluation, in-house target-centre adaptation, subject-level evaluation and feature-dictionary generation.
 
-This repository does not include raw videos, in-house clinical records, derived patient-level data, model checkpoints, or large intermediate motion files. Public CARE-PD data should be obtained from the official CARE-PD release, and private in-house data should be placed locally following the schema in `docs/DATA.md`.
+This repository does not include raw videos, in-house clinical records, the full feature tables,
+model checkpoints or large intermediate motion files. The release does include author-authorized
+derived participant-level predictions, adaptation splits and selected-feature inventories under
+`release/reproducibility_assets/`. Public CARE-PD data should be obtained from the official
+CARE-PD release, and private in-house input data should be placed locally following the schema in
+`docs/DATA.md`.
 
 ## Reproducibility release
 
@@ -103,11 +108,12 @@ Scripts write results under `outputs/` or `paper/res/` by default. These folders
 If you use this code, please cite the associated manuscript once available.
 
 ```bibtex
-@article{zhang_biogaitpd_2026,
-  title = {Interpretable biomechanical modelling for multicentre Parkinsonian gait severity prediction},
-  author = {Zhang, Tianyao and colleagues},
+@software{zhang_biogaitpd_2026,
+  title = {BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts},
+  author = {Zhang, Tianyao and others},
   year = {2026},
-  note = {Manuscript in preparation}
+  version = {0.2.0},
+  url = {https://github.com/tylerzhang77/biogait-pd/tree/v0.2.0}
 }
 ```
 

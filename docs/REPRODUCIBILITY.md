@@ -1,7 +1,7 @@
 # Reproducibility Notes
 
 The public code release is versioned separately from the manuscript files. The current release
-identifier is `biogait-pd-paper-revision-0.2.0`, published at Git tag `v0.2.0` (commit `e38b54c`).
+identifier is `biogait-pd-paper-revision-0.2.0`, published at Git tag `v0.2.0` (commit `2309a34`).
 The final submission should also cite a permanent archive record rather than only an unpinned
 branch.
 

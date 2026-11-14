@@ -1,0 +1,7 @@
+﻿Training setting,Calibration size k,No-target,Calibration-only,Full-batch,Evaluation participants
+CARE-PD-only,1,0.439,0.54,0.581,106
+CARE-PD-only,5,0.411,0.517,0.553,90
+CARE-PD-only,10,0.387,0.5,0.475,70
+Five-cohort,1,0.54,0.463,0.618,106
+Five-cohort,5,0.515,0.563,0.603,90
+Five-cohort,10,0.422,0.49,0.506,70

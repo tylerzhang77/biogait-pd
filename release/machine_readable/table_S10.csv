@@ -1,0 +1,7 @@
+﻿Anatomical region,Model coordinates retained,No. of qpos coordinates,Exported skeletal body landmarks
+Pelvis/root,Pelvis free joint: 3 translations and 3 rotations represented by a 7-element qpos quaternion format; used for global trajectory descriptors.,7 root qpos (6 DoF),pelvis
+Right lower limb,"Hip flexion/adduction/rotation; knee rotational and model-defined translational coordinates; ankle, subtalar and metatarsophalangeal coordinates.",15,"femur_r, tibia_r, calcn_r, toes_r"
+Left lower limb,"Hip flexion/adduction/rotation; knee rotational and model-defined translational coordinates; ankle, subtalar and metatarsophalangeal coordinates.",15,"femur_l, tibia_l, calcn_l, toes_l"
+Axial trunk and head-neck,"Multi-level lumbar, thoracic and head-neck flexion-extension, lateral-bending and axial-rotation coordinates.",27,"lumbar3, thoracic6, head_neck"
+Right upper limb,"Sternoclavicular, scapular, acromioclavicular, shoulder, elbow, forearm pronation-supination and wrist/hand coordinates.",20,"humerus_r, radius_r, hand_r"
+Left upper limb,"Sternoclavicular, scapular, acromioclavicular, shoulder, elbow, forearm pronation-supination and wrist/hand coordinates.",20,"humerus_l, radius_l, hand_l"

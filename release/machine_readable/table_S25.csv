@@ -1,0 +1,11 @@
+﻿Training setting,Held-out cohort,Macro-F1 (95% CI)
+CARE-PD-only,3DGait,0.599 [0.483–0.696]
+CARE-PD-only,BMCLab,0.674 [0.478–0.799]
+CARE-PD-only,PD-GaM,0.644 [0.570–0.707]
+CARE-PD-only,T-SDU-PD,0.508 [0.299–0.679]
+CARE-PD-only,Four-cohort mean,0.606 [0.520–0.663]
+Five-cohort,3DGait,0.639 [0.530–0.731]
+Five-cohort,BMCLab,0.710 [0.508–0.847]
+Five-cohort,PD-GaM,0.658 [0.573–0.731]
+Five-cohort,T-SDU-PD,0.512 [0.322–0.651]
+Five-cohort,Four-cohort mean,0.630 [0.550–0.686]

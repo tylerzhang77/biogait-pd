@@ -1,0 +1,6 @@
+﻿Setting,Macro-F1 (95% CI),Accuracy (95% CI),Macro-precision (95% CI),Macro-recall (95% CI)
+Zero-shot CARE-PD-only,0.508 (0.416-0.585),0.540 (0.452-0.626),0.571 (0.462-0.675),0.514 (0.434-0.591)
+Target-adaptive,0.558 (0.468-0.632),0.563 (0.480-0.644),0.601 (0.515-0.686),0.550 (0.468-0.629)
+Zero-shot CARE-PD-only (fixed ordinal decoder),0.472 (0.380-0.553),0.510 (0.419-0.598),0.570 (0.455-0.681),0.482 (0.403-0.560)
+Target-adaptive (fixed ordinal decoder),0.514 (0.421-0.595),0.540 (0.454-0.625),0.621 (0.521-0.708),0.515 (0.436-0.595)
+Local-only refit (in-house subjects only),0.524 (paired vs full: −0.034 [−0.092, 0.024]),0.527 (0.448-0.602),0.550 (0.466-0.627),0.522 (0.444-0.599)

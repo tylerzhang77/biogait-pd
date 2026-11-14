@@ -1,0 +1,5 @@
+﻿Condition,Label/evaluation policy,CARE-PD-only,Five-cohort
+Primary,raw 3 mapped to class 2; three-class BioGait-MoE,0.5813,0.6245
+Exclude score 3,raw 3 removed from both training and testing; full BioGait-MoE refit,0.5820,0.5910
+Four-class model,raw 0/1/2/3 retained; pooled EBM; four-class argmax,0.4141,0.4291
+"Four-class model, common 0–2 subset (CARE-PD setting)",true raw 0/1/2 only; predicted class 3 retained as an error,0.5605,0.5834

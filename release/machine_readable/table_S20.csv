@@ -1,0 +1,17 @@
+﻿Item,Value
+Participants / recordings,150 / 150
+Camera,"Azure Kinect DK (RGB-D); colour stream only, fixed device per session, placed in front of the participant"
+Colour video,"1,920 × 1,080 at 30 Hz; sensor rotated 90° at capture (147 CW / 2 CCW) → 1,080 × 1,920 portrait"
+Depth stream,"640 × 576, logged but not used in reconstruction"
+Factory calibration,per-device colour and depth intrinsics (14-parameter model; colour focal length ≈ 913 px) retained in capture logs
+Frames per recording,"853–3,219 (28–107 s)"
+Gait task,dedicated overground gait item administered according to the MDS-UPDRS protocol
+Pose reconstruction,"WHAM → SMPL parameters (2,000 shape iterations)"
+Ground-plane alignment,fixed −90° x-axis rotation of world coordinates before retargeting
+Retargeting,"GMR to MS-Human-700, native 30 Hz retained"
+Metric scale reference,no external calibration; pelvis-centred features; speed accuracy assessed externally (Table S18)
+Reconstruction failures / exclusions,0 / 0 (batch logs; all 150 recordings retained)
+Segments,"1,069 (median 8 per participant; range 1–10)"
+Segment duration,median 4.9 s (IQR 4.0–6.5 s); range 3.0–44.2 s
+Segmentation rule,"cuts at detected direction reversals; passes < 3 s or net displacement < max(0.12 m, 18% of travel range) discarded; turning phases excluded"
+Feature-extraction failures,0 (error logs empty)

@@ -1,0 +1,15 @@
+﻿Training setting,Fold A,Fold B,Descriptors in each set,Shared descriptors,Union,Jaccard overlap
+CARE-PD-only,3DGait,BMCLab,150,112,188,0.5957
+CARE-PD-only,3DGait,PD-GaM,150,113,187,0.6043
+CARE-PD-only,3DGait,T-SDU-PD,150,140,160,0.875
+CARE-PD-only,BMCLab,PD-GaM,150,75,225,0.3333
+CARE-PD-only,BMCLab,T-SDU-PD,150,106,194,0.5464
+CARE-PD-only,PD-GaM,T-SDU-PD,150,115,185,0.6216
+CARE-PD-only,Mean of six pairs,—,—,—,—,0.5961
+Five-cohort,3DGait,BMCLab,150,125,175,0.7143
+Five-cohort,3DGait,PD-GaM,150,120,180,0.6667
+Five-cohort,3DGait,T-SDU-PD,150,139,161,0.8634
+Five-cohort,BMCLab,PD-GaM,150,106,194,0.5464
+Five-cohort,BMCLab,T-SDU-PD,150,117,183,0.6393
+Five-cohort,PD-GaM,T-SDU-PD,150,126,174,0.7241
+Five-cohort,Mean of six pairs,—,—,—,—,0.6924

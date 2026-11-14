@@ -1,0 +1,11 @@
+﻿Component,Parameter,Value,Status
+Descriptor selection,EBM experts SelectKBest (f_classif),k = 150,Fixed
+Descriptor selection,Pooled linear experts SelectKBest,k = 320,Fixed
+EBM hyperparameters,interactions / max_bins / outer_bags / min_samples_leaf / learning_rate / max_rounds / seed,0 / 128 / 4 / 8 / 0.02 / 2500 / 42,Fixed
+Fusion,Population linear weight beta,0.2,Tuned (historical grid)
+Fusion,Fusion mode / temperature,arithmetic / 0.8,Tuned (historical grid)
+Source gate,Scheme / kappa / tau / reliability_power / uniform_blend,similarity_only / 25 / 1.0 / 1.0 / 0.25,Tuned (historical grid)
+Alpha rule,mode / low / high,source_when_uncertain / 0.6 / 0.95,Tuned (historical grid)
+Ordinal decoder,"thresholds (t01, t12) on expected gait score",0.65 / 1.45,"Tuned (historical grid: {0.55, 0.60, 0.65} x {1.35, 1.40, 1.45} plus broader search)"
+Label mapping,raw score 3 to class 2,"0->0, 1->1, 2/3->2",Fixed computational mapping
+Target access,Normalization and gate inputs,full unlabeled target batch,Fixed protocol (audit in Table S5)

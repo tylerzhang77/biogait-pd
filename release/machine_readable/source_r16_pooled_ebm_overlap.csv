@@ -1,0 +1,13 @@
+﻿train_setting,bundle,model,fold_a,fold_b,n_a,n_b,n_intersection,n_union,jaccard
+carepd-only,population,additive_ebm,3DGait,BMCLab,150,150,112,188,0.5957446808510638
+carepd-only,population,additive_ebm,3DGait,PD-GaM,150,150,113,187,0.6042780748663101
+carepd-only,population,additive_ebm,3DGait,T-SDU-PD,150,150,140,160,0.875
+carepd-only,population,additive_ebm,BMCLab,PD-GaM,150,150,75,225,0.3333333333333333
+carepd-only,population,additive_ebm,BMCLab,T-SDU-PD,150,150,106,194,0.5463917525773195
+carepd-only,population,additive_ebm,PD-GaM,T-SDU-PD,150,150,115,185,0.6216216216216216
+five-cohort,population,additive_ebm,3DGait,BMCLab,150,150,125,175,0.7142857142857143
+five-cohort,population,additive_ebm,3DGait,PD-GaM,150,150,120,180,0.6666666666666666
+five-cohort,population,additive_ebm,3DGait,T-SDU-PD,150,150,139,161,0.8633540372670807
+five-cohort,population,additive_ebm,BMCLab,PD-GaM,150,150,106,194,0.5463917525773195
+five-cohort,population,additive_ebm,BMCLab,T-SDU-PD,150,150,117,183,0.639344262295082
+five-cohort,population,additive_ebm,PD-GaM,T-SDU-PD,150,150,126,174,0.7241379310344828

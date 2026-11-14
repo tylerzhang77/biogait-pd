@@ -1,0 +1,6 @@
+﻿Held-out cohort,BioGait-PD (gated),Speed-only EBM,Speed+cadence+stride EBM,"Pooled EBM (1,258)",Pooled LR,Pooled LR + centered CORAL
+3DGait,0.598,0.530,0.630,0.588,0.598,0.586
+BMCLab,0.681,0.744,0.742,0.681,0.681,0.623
+PD-GaM,0.642,0.680,0.639,0.643,0.643,0.551
+T-SDU-PD,0.404,0.429,0.434,0.413,0.404,0.438
+Mean (4-cohort),0.581,0.596,0.611,0.581,0.581,0.550

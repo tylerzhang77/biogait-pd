@@ -1,0 +1,10 @@
+﻿train_setting,outer_scope,split_status,n_train_feature_records,n_train_independent_participants,n_active_ebm_pipelines,n_active_pooled_svc_pipelines,k_per_ebm,k_per_pooled_svc,active_classifier_union_count,active_classifier_intersection_count,n_gate_candidate_columns
+carepd-only,3DGait,current_final_public_split_recipe_reconstruction,2863,67,4,2,150,320,390,35,1252
+carepd-only,BMCLab,current_final_public_split_recipe_reconstruction,2172,87,4,2,150,320,433,32,1252
+carepd-only,PD-GaM,current_final_public_split_recipe_reconstruction,1252,80,4,2,150,320,415,32,1252
+carepd-only,T-SDU-PD,current_final_public_split_recipe_reconstruction,2572,96,4,2,150,320,410,30,1252
+five-cohort,3DGait,current_final_public_split_recipe_reconstruction,3932,217,5,2,150,320,406,29,1252
+five-cohort,BMCLab,current_final_public_split_recipe_reconstruction,3241,237,5,2,150,320,442,30,1252
+five-cohort,PD-GaM,current_final_public_split_recipe_reconstruction,2321,230,5,2,150,320,427,23,1252
+five-cohort,T-SDU-PD,current_final_public_split_recipe_reconstruction,3641,246,5,2,150,320,422,26,1252
+five-cohort,main150,additional_inhouse_recipe_reconstruction,2953,110,5,2,150,320,448,20,1252

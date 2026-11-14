@@ -1,0 +1,7 @@
+﻿fold_a,fold_b,spearman_profiles,sign_agreement
+3DGait,BMCLab,0.7825,11/12
+3DGait,PD-GaM,0.9002,9/12
+3DGait,T-SDU-PD,0.9298,10/12
+BMCLab,PD-GaM,0.8652,10/12
+BMCLab,T-SDU-PD,0.8246,11/12
+PD-GaM,T-SDU-PD,0.9842,11/12

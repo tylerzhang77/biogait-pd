@@ -1,0 +1,46 @@
+{
+  "release_id": "biogait-pd-paper-revision-0.2.0",
+  "task": "retrospective cross-cohort ordinal gait-score prediction",
+  "label_mapping": {
+    "raw_score_0": 0,
+    "raw_score_1": 1,
+    "raw_score_2": 2,
+    "raw_score_3": 2
+  },
+  "candidate_descriptor_count": 1258,
+  "classifier_selection": {
+    "ebm_select_k": 150,
+    "pooled_linear_select_k": 320,
+    "gate_candidate_columns": 1252
+  },
+  "evaluation": {
+    "prediction_unit": "recording/state",
+    "segment_probability_aggregation": "equal mean within unit",
+    "primary_point_estimate": "unit-equal within held-out cohort",
+    "participant_equal_sensitivity": true,
+    "target_access": "full held-out cohort unlabeled features for normalization and source-distribution matching",
+    "ordinal_decoder": "expected gait score",
+    "temperature": 0.8,
+    "thresholds": [0.65, 1.45],
+    "bootstrap_replicates": 2000,
+    "bootstrap_cluster": "participant"
+  },
+  "source_adaptive_route": {
+    "kappa": 25.0,
+    "tau": 2.0,
+    "uniform_blend": 0.25,
+    "reliability_power": 0.5,
+    "alpha_local": 0.625
+  },
+  "target_centre_adaptation": {
+    "fractions": [0.1, 0.2, 0.4, 0.6],
+    "split_seeds": [42, 2024, 3407, 7, 99],
+    "participant_disjoint": true,
+    "adaptation_bootstrap_replicates": 5000
+  },
+  "provenance": {
+    "code_entry_point": "scripts/internal/run_paper_lodo_v2_branch_hier_moe.py",
+    "results_tables": "release/machine_readable/",
+    "restricted_materials": "See docs/REPRODUCIBILITY.md"
+  }
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use BioGait-PD, please cite the associated manuscript and this software release."
+title: "BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts"
+version: "0.2.0"
+date-released: 2026-11-14
+authors:
+  - family-names: Zhang
+    given-names: Tianyao
+  - family-names: Yao
+    given-names: Siqiong
+  - family-names: Liu
+    given-names: Yuechen
+  - family-names: Chen
+    given-names: Qixuan
+  - family-names: Jing
+    given-names: Ming
+  - family-names: Chen
+    given-names: Guofang
+  - family-names: Xu
+    given-names: Chen
+  - family-names: Lu
+    given-names: Hui
+repository-code: "https://github.com/tylerzhang77/biogait-pd"
+keywords:
+  - gait analysis
+  - Parkinson disease
+  - kinematic modelling
+  - cross-cohort evaluation
+  - interpretable machine learning

@@ -1,0 +1,10 @@
+﻿Training setting,Held-out cohort,Source-training records,Source-training participants,Active EBM pipelines,Pooled linear pipelines,Classifier union,Classifier intersection,Gate candidate columns
+CARE-PD-only,3DGait,"2,863",67,4,2,390,35,"1,252"
+CARE-PD-only,BMCLab,"2,172",87,4,2,433,32,"1,252"
+CARE-PD-only,PD-GaM,"1,252",80,4,2,415,32,"1,252"
+CARE-PD-only,T-SDU-PD,"2,572",96,4,2,410,30,"1,252"
+Five-cohort,3DGait,"3,932",217,5,2,406,29,"1,252"
+Five-cohort,BMCLab,"3,241",237,5,2,442,30,"1,252"
+Five-cohort,PD-GaM,"2,321",230,5,2,427,23,"1,252"
+Five-cohort,T-SDU-PD,"3,641",246,5,2,422,26,"1,252"
+Five-cohort,main150,"2,953",110,5,2,448,20,"1,252"

@@ -1,0 +1,7 @@
+﻿train_setting,dataset,icc_one_way,n_sessions,n_segments,ci_low,ci_high,valid_bootstrap,n_bootstrap,seed,ci_kind
+CAREPD-only,PD-GaM,0.8117991451239958,420,1698,0.7798230719917222,0.8386922032694955,2000,2000,1410609164,percentile session-level cluster bootstrap (groups resampled with replacement)
+CAREPD-only,BMCLab,0.9217899609704203,42,779,0.870038176484773,0.9526812380866837,2000,2000,1461268535,percentile session-level cluster bootstrap (groups resampled with replacement)
+CAREPD-only,T-SDU-PD,0.43520490177362836,31,83,0.15165008054025073,0.6381695103560685,2000,2000,1604989060,percentile session-level cluster bootstrap (groups resampled with replacement)
+five-cohort,PD-GaM,0.8341539570532384,420,1698,0.8070268688612144,0.8570669348384553,2000,2000,1516646612,percentile session-level cluster bootstrap (groups resampled with replacement)
+five-cohort,BMCLab,0.9221860674729235,42,779,0.8673381123886732,0.9538765003905768,2000,2000,1567305983,percentile session-level cluster bootstrap (groups resampled with replacement)
+five-cohort,T-SDU-PD,0.43847101107495445,31,83,0.16768981151219967,0.6671952187775068,2000,2000,1711026508,percentile session-level cluster bootstrap (groups resampled with replacement)

@@ -1,0 +1,11 @@
+﻿Comparison / grouping,Value,95% CI,n
+"ON minus OFF expected gait score, CARE-PD-only",-0.251,"[-0.391, -0.120]",19 paired participants
+"ON minus OFF expected gait score, five-cohort",-0.267,"[-0.408, -0.144]",19 paired participants
+"Participants with ON < OFF, CARE-PD-only",16 of 19,"[0.604, 0.966]",19 paired participants
+"Participants with ON < OFF, five-cohort",17 of 19,"[0.669, 0.987]",19 paired participants
+"Within-session ICC, PD-GaM source clips, CARE-PD-only",0.812,"[0.780, 0.839]",420 clips
+"Within-session ICC, PD-GaM source clips, five-cohort",0.834,"[0.807, 0.857]",420 clips
+"Within-session ICC, BMCLab walks within patient x state, CARE-PD-only",0.922,"[0.870, 0.953]",42 groups
+"Within-session ICC, BMCLab walks within patient x state, five-cohort",0.922,"[0.867, 0.954]",42 groups
+"Within-session ICC, T-SDU-PD same-day trials, CARE-PD-only",0.435,"[0.152, 0.638]",31 days
+"Within-session ICC, T-SDU-PD same-day trials, five-cohort",0.438,"[0.168, 0.667]",31 days

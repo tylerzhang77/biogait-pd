@@ -1,8 +1,18 @@
 # BioGait-PD
 
-BioGait-PD is a biomechanically interpretable modelling pipeline for multicentre Parkinsonian gait severity prediction. The code in this release supports feature extraction from retargeted skeletal motion, CAREPD-style leave-one-dataset-out evaluation, in-house target-centre adaptation, subject-level evaluation, and feature-dictionary generation.
+BioGait-PD is an interpretable kinematic modelling pipeline for cross-cohort gait-impairment rating prediction. The code in this release supports feature extraction from retargeted skeletal motion, CARE-PD-style leave-one-dataset-out evaluation, in-house target-centre adaptation, subject-level evaluation and feature-dictionary generation.
 
 This repository does not include raw videos, in-house clinical records, derived patient-level data, model checkpoints, or large intermediate motion files. Public CARE-PD data should be obtained from the official CARE-PD release, and private in-house data should be placed locally following the schema in `docs/DATA.md`.
+
+## Reproducibility release
+
+The public release manifest, frozen paper protocol and machine-readable companions to the
+Supplementary tables are in `release/`. The release identifier is
+`biogait-pd-paper-revision-0.2.0`. Before publication, this identifier should be replaced or
+confirmed by a permanent Git tag and archive record. Restricted split manifests, per-unit
+predictions, selected-feature inventories and trained model files must be supplied through a
+controlled archive when permitted by the governing data-use approval; they are not claimed to be
+publicly available in this repository.
 
 ## CARE-PD Data Access
 

@@ -1,0 +1,7 @@
+﻿Setting,Representation,3DGait,BMCLab,PD-GaM,T-SDU-PD,Mean
+CARE-PD-only,"Full GMR-retargeted (1,258)",0.588,0.681,0.643,0.413,0.581
+CARE-PD-only,Reduced-feature (789),0.654,0.607,0.609,0.413,0.571
+CARE-PD-only,Strict angular-only (696),0.576,0.561,0.652,0.380,0.542
+Full five-cohort,"Full GMR-retargeted (1,258)",0.549,0.693,0.657,0.457,0.589
+Full five-cohort,Reduced-feature (789),0.501,0.674,0.684,0.401,0.565
+Full five-cohort,Strict angular-only (696),0.494,0.648,0.674,0.387,0.551

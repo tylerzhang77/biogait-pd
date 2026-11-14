@@ -1,0 +1,40 @@
+﻿Evaluation block,Registered case,Cohort,Reference label,p(class 0),p(class 1),p(class 2),Expected score,Ordinal decision,Argmax,Correct
+adaptation|main150|r0.6|s2024,"Correct, high decision probability",main150,0,0.836,0.158,0.007,0.171,0,0,Yes
+adaptation|main150|r0.6|s2024,"Misclassified, high decision probability",main150,0,0.034,0.097,0.869,1.834,2,2,No
+adaptation|main150|r0.6|s2024,Lowest confidence,main150,2,0.327,0.420,0.253,0.927,1,1,No
+adaptation|main150|r0.6|s3407,"Correct, high decision probability",main150,2,0.013,0.059,0.929,1.916,2,2,Yes
+adaptation|main150|r0.6|s3407,"Misclassified, high decision probability",main150,0,0.013,0.153,0.834,1.821,2,2,No
+adaptation|main150|r0.6|s3407,Lowest confidence,main150,0,0.411,0.439,0.150,0.739,1,1,No
+adaptation|main150|r0.6|s42,"Correct, high decision probability",main150,2,0.006,0.044,0.950,1.944,2,2,Yes
+adaptation|main150|r0.6|s42,"Misclassified, high decision probability",main150,0,0.019,0.116,0.865,1.846,2,2,No
+adaptation|main150|r0.6|s42,Lowest confidence,main150,2,0.298,0.339,0.363,1.065,1,2,No
+adaptation|main150|r0.6|s7,"Correct, high decision probability",main150,2,0.026,0.109,0.865,1.840,2,2,Yes
+adaptation|main150|r0.6|s7,"Misclassified, high decision probability",main150,2,0.066,0.764,0.170,1.104,1,1,No
+adaptation|main150|r0.6|s7,Lowest confidence,main150,1,0.246,0.394,0.360,1.113,1,1,Yes
+adaptation|main150|r0.6|s99,"Correct, high decision probability",main150,0,0.828,0.163,0.008,0.180,0,0,Yes
+adaptation|main150|r0.6|s99,"Misclassified, high decision probability",main150,0,0.007,0.080,0.913,1.906,2,2,No
+adaptation|main150|r0.6|s99,Lowest confidence,main150,1,0.374,0.298,0.328,0.953,1,0,Yes
+lodo|CARE-PD-only|3DGait,"Correct, high decision probability",3DGait,0,0.994,0.004,0.001,0.007,0,0,Yes
+lodo|CARE-PD-only|3DGait,"Misclassified, high decision probability",3DGait,1,0.904,0.068,0.028,0.124,0,0,No
+lodo|CARE-PD-only|3DGait,Lowest confidence,3DGait,2,0.341,0.296,0.363,1.022,1,2,No
+lodo|CARE-PD-only|BMCLab,"Correct, high decision probability",BMCLab,2,0.000,0.013,0.987,1.987,2,2,Yes
+lodo|CARE-PD-only|BMCLab,"Misclassified, high decision probability",BMCLab,0,0.030,0.807,0.163,1.133,1,1,No
+lodo|CARE-PD-only|BMCLab,Lowest confidence,BMCLab,0,0.414,0.422,0.165,0.751,1,1,No
+lodo|CARE-PD-only|PD-GaM,"Correct, high decision probability",PD-GaM,2,0.000,0.004,0.996,1.996,2,2,Yes
+lodo|CARE-PD-only|PD-GaM,"Misclassified, high decision probability",PD-GaM,1,0.002,0.041,0.957,1.955,2,2,No
+lodo|CARE-PD-only|PD-GaM,Lowest confidence,PD-GaM,1,0.318,0.355,0.327,1.009,1,1,Yes
+lodo|CARE-PD-only|T-SDU-PD,"Correct, high decision probability",T-SDU-PD,2,0.000,0.003,0.997,1.997,2,2,Yes
+lodo|CARE-PD-only|T-SDU-PD,"Misclassified, high decision probability",T-SDU-PD,1,0.992,0.008,0.000,0.008,0,0,No
+lodo|CARE-PD-only|T-SDU-PD,Lowest confidence,T-SDU-PD,2,0.392,0.273,0.335,0.943,1,0,No
+lodo|five-cohort|3DGait,"Correct, high decision probability",3DGait,0,0.990,0.009,0.001,0.011,0,0,Yes
+lodo|five-cohort|3DGait,"Misclassified, high decision probability",3DGait,2,0.067,0.780,0.153,1.086,1,1,No
+lodo|five-cohort|3DGait,Lowest confidence,3DGait,0,0.395,0.283,0.322,0.928,1,0,No
+lodo|five-cohort|BMCLab,"Correct, high decision probability",BMCLab,2,0.005,0.026,0.970,1.965,2,2,Yes
+lodo|five-cohort|BMCLab,"Misclassified, high decision probability",BMCLab,2,0.785,0.187,0.028,0.243,0,0,No
+lodo|five-cohort|BMCLab,Lowest confidence,BMCLab,0,0.237,0.488,0.275,1.037,1,1,No
+lodo|five-cohort|PD-GaM,"Correct, high decision probability",PD-GaM,2,0.010,0.007,0.982,1.972,2,2,Yes
+lodo|five-cohort|PD-GaM,"Misclassified, high decision probability",PD-GaM,1,0.012,0.037,0.952,1.940,2,2,No
+lodo|five-cohort|PD-GaM,Lowest confidence,PD-GaM,2,0.360,0.310,0.331,0.971,1,0,No
+lodo|five-cohort|T-SDU-PD,"Correct, high decision probability",T-SDU-PD,0,0.980,0.019,0.000,0.020,0,0,Yes
+lodo|five-cohort|T-SDU-PD,"Misclassified, high decision probability",T-SDU-PD,1,0.975,0.024,0.001,0.026,0,0,No
+lodo|five-cohort|T-SDU-PD,Lowest confidence,T-SDU-PD,1,0.297,0.378,0.325,1.028,1,1,Yes

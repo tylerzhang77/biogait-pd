@@ -1,0 +1,148 @@
+{
+  "checkpoint_status": "reconstructed_verified",
+  "train_setting": "five-cohort",
+  "held_out_scope": "3DGait",
+  "include_main150": true,
+  "feature_table": "local feature table matching feature_table_sha256; source feature tables are not redistributed",
+  "feature_table_sha256": "94c94f4c739aae47d771f0a26d00a38b60dc1bedffdd2dd521a0f5dec5aed11c",
+  "n_features": 1258,
+  "n_train_rows": 3932,
+  "n_test_rows": 90,
+  "source_datasets": [
+    "BMCLab",
+    "PD-GaM",
+    "T-SDU-PD",
+    "main150"
+  ],
+  "expert_factories": {
+    "additive_ebm": {
+      "k": 150,
+      "interactions": 0,
+      "max_bins": 128,
+      "outer_bags": 4,
+      "min_samples_leaf": 8,
+      "learning_rate": 0.02,
+      "max_rounds": 2500,
+      "random_state": 42
+    },
+    "margin_svc_c0p1": {
+      "C": 0.1,
+      "k": 320,
+      "calibration_cv": 3
+    },
+    "margin_svc_c1": {
+      "C": 1.0,
+      "k": 320,
+      "calibration_cv": 3
+    },
+    "logreg_c0p5": {
+      "C": 0.5,
+      "k": 320
+    },
+    "ordinal_cumulative_c0p3": {
+      "C": 0.3,
+      "k": 320
+    },
+    "concept_sparse_ordinal": {
+      "C": 0.3,
+      "penalty": "l1"
+    }
+  },
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "packages": {
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.3",
+    "interpret-core": "0.7.8"
+  },
+  "models": [
+    {
+      "label": "population",
+      "path": "five-cohort/3DGait/population/experts.joblib",
+      "n_train_rows": 3932,
+      "n_test_rows": 90,
+      "cache_path": null,
+      "max_abs_probability_difference_vs_cache": {
+        "nonlinear_ebm": 0.0,
+        "linear_margin_correction": 0.0,
+        "ordinal_concept": 0.0
+      }
+    },
+    {
+      "label": "source_BMCLab",
+      "path": "five-cohort/3DGait/source_BMCLab/experts.joblib",
+      "n_train_rows": 781,
+      "n_test_rows": 90,
+      "cache_path": null,
+      "max_abs_probability_difference_vs_cache": {
+        "nonlinear_ebm": 0.0,
+        "linear_margin_correction": 0.0,
+        "ordinal_concept": 0.0
+      }
+    },
+    {
+      "label": "source_PD_GaM",
+      "path": "five-cohort/3DGait/source_PD_GaM/experts.joblib",
+      "n_train_rows": 1701,
+      "n_test_rows": 90,
+      "cache_path": null,
+      "max_abs_probability_difference_vs_cache": {
+        "nonlinear_ebm": 0.0,
+        "linear_margin_correction": 0.0,
+        "ordinal_concept": 0.0
+      }
+    },
+    {
+      "label": "source_T_SDU_PD",
+      "path": "five-cohort/3DGait/source_T_SDU_PD/experts.joblib",
+      "n_train_rows": 381,
+      "n_test_rows": 90,
+      "cache_path": null,
+      "max_abs_probability_difference_vs_cache": {
+        "nonlinear_ebm": 0.0,
+        "linear_margin_correction": 0.0,
+        "ordinal_concept": 0.0
+      }
+    },
+    {
+      "label": "source_main150",
+      "path": "five-cohort/3DGait/source_main150/experts.joblib",
+      "n_train_rows": 1069,
+      "n_test_rows": 90,
+      "cache_path": null,
+      "max_abs_probability_difference_vs_cache": {
+        "nonlinear_ebm": 0.0,
+        "linear_margin_correction": 0.0,
+        "ordinal_concept": 0.0
+      }
+    }
+  ],
+  "role_cache_comparison": {
+    "population": {
+      "nonlinear_ebm": 0.0,
+      "linear_margin_correction": 0.0,
+      "ordinal_concept": 0.0
+    },
+    "source_BMCLab": {
+      "nonlinear_ebm": 0.0,
+      "linear_margin_correction": 0.0,
+      "ordinal_concept": 0.0
+    },
+    "source_PD_GaM": {
+      "nonlinear_ebm": 0.0,
+      "linear_margin_correction": 0.0,
+      "ordinal_concept": 0.0
+    },
+    "source_T_SDU_PD": {
+      "nonlinear_ebm": 0.0,
+      "linear_margin_correction": 0.0,
+      "ordinal_concept": 0.0
+    },
+    "source_main150": {
+      "nonlinear_ebm": 0.0,
+      "linear_margin_correction": 0.0,
+      "ordinal_concept": 0.0
+    }
+  }
+}

@@ -21,7 +21,9 @@ their original column names so that table and figure lineage can be checked.
 
 ## Model files
 
-No serialized trained-model checkpoint was present in the source revision audit package used to
-assemble this release. The executable scripts and frozen protocol are included, but the final
-release must not claim checkpoint availability until the fitted models have been exported and
-added under a versioned `models/` directory or an attached GitHub/Zenodo release asset.
+Reconstructed verified fold-specific model bundles are provided under `models/reconstructed/`.
+Their manifests record the refitting protocol, software versions, selected features and hashes.
+The original fitted estimators were not preserved in the historical revision audit package; the
+released bundles were refitted from the frozen v3 FPS-fix protocol and verified against the
+archived predictions. This qualification is retained in the release documentation and response
+letter.

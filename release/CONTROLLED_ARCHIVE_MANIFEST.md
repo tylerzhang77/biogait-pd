@@ -2,9 +2,9 @@
 
 This file specifies the remaining materials that must accompany the public GitHub release if the
 Editor or reviewers are given access through a confidential or controlled archive. Public copies
-of the split assignments, per-unit predictions and selected-feature inventories are now under
-`reproducibility_assets/`. This file remains a manifest for the items still missing from the
-current commit, not evidence that an archive has already been created.
+of the split assignments, per-unit predictions, selected-feature inventories and reconstructed
+model bundles are now under `reproducibility_assets/`. This file remains a manifest for restricted
+input materials and does not itself constitute a confidential archive.
 
 ## Required files
 
@@ -14,7 +14,7 @@ current commit, not evidence that an archive has already been created.
 | `split_manifests/` | Participant-disjoint adaptation splits and held-out-cohort unit manifests | Public copies are in `reproducibility_assets/splits/`; add any missing manifests here |
 | `selected_features/` | Per-fold and per-expert selected-feature lists, including gate candidate columns | Public copies are in `reproducibility_assets/feature_selection/` |
 | `predictions/` | Per-unit labels, probabilities, decoded classes and model/config identifiers | Public copies are in `reproducibility_assets/predictions/` |
-| `model_checkpoints/` | Serialized fitted experts/checkpoints and version metadata | Still missing from the current commit |
+| `model_checkpoints/` | Serialized reconstructed fitted experts/checkpoints and version metadata | Public copies are in `reproducibility_assets/models/reconstructed/` |
 | `source_tables/` | Machine-readable rows used to generate every manuscript and Supplementary table/figure | Public aggregate tables are already in `release/machine_readable/` |
 | `checksums/` | SHA-256 hashes for every archive member | Generate after the archive is frozen |
 | `README.md` | Exact commands, environment lockfile, data-release versions and access restrictions | Must name the permanent archive identifier |

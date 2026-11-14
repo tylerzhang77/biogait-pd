@@ -1,9 +1,8 @@
 # Reproducibility Notes
 
-The public code release is versioned separately from the manuscript files. The current release
-identifier is `biogait-pd-paper-revision-0.2.0`, published at Git tag `v0.2.0` (commit `2309a34`).
-The final submission should also cite a permanent archive record rather than only an unpinned
-branch.
+The public code release is versioned separately from the manuscript files. The checkpoint-containing
+release is `biogait-pd-paper-revision-0.2.1`, to be published at Git tag `v0.2.1` and accompanied
+by a permanent archive record rather than only an unpinned branch.
 
 ## Main Experiments
 
@@ -41,12 +40,25 @@ Most scripts write to `outputs/` or `paper/res/`. These directories are excluded
 they can contain large intermediate files and patient-level predictions. The aggregate tables
 needed to inspect the reported results are included under `release/machine_readable/`.
 
+## Model checkpoints
+
+Reconstructed fold-specific model bundles are provided under
+`release/reproducibility_assets/models/reconstructed/`. They include the fitted expert pipelines,
+selected-feature inventories, concept columns, fold manifests and SHA-256 hashes. The accompanying
+verification file compares predictions from reloaded checkpoints with the archived manuscript
+predictions. All eight folds produced identical predicted classes; the maximum absolute probability
+difference was floating-point round-off (`1.11e-16`).
+
+The original fitted estimators were not preserved in the historical revision package. The released
+files are therefore labelled `reconstructed_verified`: they were refitted from the frozen v3
+FPS-fix feature table and protocol and verified against the archived outputs. This distinction is
+retained in the model manifests and should be stated in the Code Availability text.
+
 ## Restricted reproducibility materials
 
 The public repository intentionally excludes raw videos, in-house clinical records, direct
 participant identifiers, large motion files and unrestricted patient-level feature tables. If the
-data-use approval permits controlled sharing, the frozen split manifests, per-unit predictions,
-selected-feature inventories and trained model files should be deposited in a confidential or
-controlled archive and referenced by its permanent identifier in the response letter. The public
-repository must not imply that these restricted materials are available when they have not been
-archived.
+data-use approval permits controlled sharing, the feature tables and any additional restricted
+inputs should be deposited in a confidential or controlled archive and referenced by its permanent
+identifier in the response letter. The public repository must not imply that raw or restricted
+participant data are available.

@@ -1,8 +1,8 @@
 # BioGait-PD reproducibility release manifest
 
-Release identifier: `biogait-pd-paper-revision-0.2.0`
-Git tag: `v0.2.0`
-Release commit: the commit referenced by tag `v0.2.0`
+Release identifier: `biogait-pd-paper-revision-0.2.1`
+Git tag: `v0.2.1`
+Release commit: the commit referenced by tag `v0.2.1`
 
 This directory contains the public, machine-readable result tables and the frozen protocol
 configuration used to organize the manuscript revision. It is designed to be paired with a
@@ -25,12 +25,15 @@ versioned Git tag and a permanent archive record before publication.
 ## Materials requiring a controlled or confidential archive
 
 The public repository does not contain raw videos, in-house clinical records, direct participant
-identifiers or large motion files. The following items are either still required or should be
-attached as a versioned release asset if they are generated after this commit:
+identifiers or large motion files. The serialized reconstructed model bundles and their checksums
+are included under `release/reproducibility_assets/models/reconstructed/`. The following item
+still requires a controlled or confidential archive:
 
-- trained model checkpoints for the exact reported fits;
-- SHA-256 checksums for every release member;
 - the exact restricted input tables needed to regenerate participant-level predictions.
+
+The checkpoint manifests identify the models as `reconstructed_verified`, because the historical
+fitted estimators were not preserved. They were refitted from the frozen protocol and verified
+against the archived predictions.
 
 The final response letter must name the actual archive or release identifier used for these
 materials. This manifest does not itself constitute a confidential archive.

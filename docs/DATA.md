@@ -63,6 +63,8 @@ contact information. Their release remains subject to the governing ethics appro
 agreements.
 
 The in-house clinical cohort itself cannot be redistributed because of participant privacy and
-institutional data-use restrictions. Raw videos, clinical records, full feature tables and trained
-model checkpoints are therefore not included in the public repository. The public CARE-PD data
-should be obtained from the official provider under its applicable terms.
+institutional data-use restrictions. Raw videos, clinical records and full feature tables are
+therefore not included in the public repository. Reconstructed verified model checkpoints are
+provided separately under `release/reproducibility_assets/models/reconstructed/`; their manifests
+identify the required feature-table hash and the refitting/verification status. The public CARE-PD
+data should be obtained from the official provider under its applicable terms.

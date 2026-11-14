@@ -3,20 +3,20 @@
 BioGait-PD is an interpretable kinematic modelling pipeline for cross-cohort gait-impairment rating prediction. The code in this release supports feature extraction from retargeted skeletal motion, CARE-PD-style leave-one-dataset-out evaluation, in-house target-centre adaptation, subject-level evaluation and feature-dictionary generation.
 
 This repository does not include raw videos, in-house clinical records, the full feature tables,
-model checkpoints or large intermediate motion files. The release does include author-authorized
-derived participant-level predictions, adaptation splits and selected-feature inventories under
-`release/reproducibility_assets/`. Public CARE-PD data should be obtained from the official
+or large intermediate motion files. The release includes author-authorized derived participant-level
+predictions, adaptation splits, selected-feature inventories and reconstructed verified model
+bundles under `release/reproducibility_assets/models/reconstructed/`. Public CARE-PD data should be obtained from the official
 CARE-PD release, and private in-house input data should be placed locally following the schema in
 `docs/DATA.md`.
 
 ## Reproducibility release
 
-The public release manifest, frozen paper protocol, machine-readable Supplementary tables and
-author-authorized participant-level reproducibility assets are in `release/`. The release
-identifier is `biogait-pd-paper-revision-0.2.0`. Before publication, this identifier should be
-confirmed by a permanent Git tag and archive record. Trained model checkpoints are not included
-yet because no serialized checkpoints were present in the source revision package; the release
-manifest records this remaining item explicitly.
+The public release manifest, frozen paper protocol, machine-readable Supplementary tables,
+author-authorized participant-level reproducibility assets and reconstructed verified checkpoints
+are in `release/`. The release identifier should be updated to the final checkpoint-containing
+tag and permanent archive record before submission. The checkpoint manifests retain the
+qualification that the historical fitted objects were not preserved and that the exported models
+were refitted from the frozen protocol and verified against the archived predictions.
 
 ## CARE-PD Data Access
 
@@ -112,8 +112,8 @@ If you use this code, please cite the associated manuscript once available.
   title = {BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts},
   author = {Zhang, Tianyao and others},
   year = {2026},
-  version = {0.2.0},
-  url = {https://github.com/tylerzhang77/biogait-pd/tree/v0.2.0}
+  version = {0.2.1},
+  url = {https://github.com/tylerzhang77/biogait-pd/tree/v0.2.1}
 }
 ```
 

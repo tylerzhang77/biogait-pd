@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use BioGait-PD, please cite the associated manuscript and this software release."
 title: "BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts"
-version: "0.2.0"
+version: "0.2.1"
 date-released: 2026-11-14
 authors:
   - family-names: Zhang

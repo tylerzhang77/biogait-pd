@@ -5,7 +5,7 @@ Before making the repository public, confirm:
 - [ ] Add a license file selected by all contributors and institutions.
 - [x] Add a release identifier and frozen paper protocol under `release/`.
 - [x] Add machine-readable Supplementary table companions and aggregate audit tables.
-- [ ] Add a permanent Git tag and archive identifier for the final release.
+- [x] Add the permanent Git tag `v0.2.0`.
 - [x] Add author-authorized split manifests, per-unit predictions and selected-feature inventories to `release/reproducibility_assets/`.
 - [ ] Export and add the exact trained model checkpoints for the reported fits.
 - [ ] Replace the provisional BibTeX entry in `README.md` after the manuscript DOI is available.

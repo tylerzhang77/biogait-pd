@@ -2,7 +2,7 @@
 
 Release identifier: `biogait-pd-paper-revision-0.2.0`
 Git tag: `v0.2.0`
-Release commit: `e38b54c`
+Release commit: the commit referenced by tag `v0.2.0`
 
 This directory contains the public, machine-readable result tables and the frozen protocol
 configuration used to organize the manuscript revision. It is designed to be paired with a

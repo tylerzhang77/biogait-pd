@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-10-09T17:20:34.294806+00:00",
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "sklearn": "1.7.2",
+  "models_refitted": true,
+  "target_statistics_refitted": true,
+  "calibration_refitted": false,
+  "thresholds_refitted": false,
+  "input_fingerprints": [
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\scripts\\run_revision_r2_m2_q05_local_only.py",
+      "sha256": "5a8e3dc44d834c5e8831ea0ccb644895efdecb52ea5f22f6e591dbddca6af018"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\scripts\\run_inhouse_target_adaptation_experiment.py",
+      "sha256": "1d954f2cae3313cace9fcdeb4b4aa648190572f1b98ab197922a33a33763bfbf"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\scripts\\run_paper_lodo_v2_branch_hier_moe.py",
+      "sha256": "ba3c3a23e834f7ec7432a081206a878b03134e92d807dfabd7457b8cce569673"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\outputs\\axis_corrected_features_v3_fpsfix\\fivecohort_axis_corrected_common_feature_table.csv",
+      "sha256": "94c94f4c739aae47d771f0a26d00a38b60dc1bedffdd2dd521a0f5dec5aed11c"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\x01_patient_evaluation\\adaptation_patient_predictions.csv",
+      "sha256": "18eaf404d5f9d43c188f435ece0967ee8e17b557eaaa6a98d72a2a07d8c059b0"
+    }
+  ],
+  "output_fingerprints": [
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\protocol.json",
+      "sha256": "0c0ad302fe3546e1b9d9a60396fa050c09dda746427ebe73b0491cb68f10a883"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\q05_confusion_matrices.csv",
+      "sha256": "eb9b7cec4c5353ad9bd80764881a570e0f38ac5a77d1e65281a56a5402a99bda"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\q05_gate_diagnostics.csv",
+      "sha256": "df688d3ba44af85f0b242b407c801f9c7093aaeb4eca9492f27a1e4119554579"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\q05_joint_bootstrap.csv",
+      "sha256": "aabec95da3e7b661ee9ff6647a12b655491ed0b168619a6ec59fd3b94071c2b5"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\q05_local_only_patient_predictions.csv",
+      "sha256": "45f40f349cc152c0b4d29c1b9e14ddb697bd447cfd49d8952b5012029c3a9fd2"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\q05_local_only_segment_predictions.csv",
+      "sha256": "42d7def9aabd739aaf73b1a6ea27eab3a5b5d0b8c7426d175a02e3b7cd34e08b"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\q05_metrics_per_split.csv",
+      "sha256": "286fd5f19ee763832e0193873b183f6a0cce4e77ccd912b6693a1c8d256c2458"
+    },
+    {
+      "path": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r2_m2_followup\\q05_local_only\\q05_split_support.csv",
+      "sha256": "978bb75c6e5876bc590905cc26cc4b05baf3c9b7948e5f240c6050cfa3e2449e"
+    }
+  ],
+  "checks": {
+    "ratio": 0.6,
+    "n_seeds": 5,
+    "adaptation_participants_each_split": [
+      90
+    ],
+    "test_participants_each_split": [
+      60
+    ],
+    "unique_participants_in_universe": 150,
+    "all_gate_weights_single_local_source": true,
+    "public_labels_used": false,
+    "joint_bootstrap_valid": true
+  },
+  "status": "exploratory_conditional"
+}

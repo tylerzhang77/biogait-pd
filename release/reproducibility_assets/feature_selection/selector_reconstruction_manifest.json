@@ -1,0 +1,33 @@
+{
+  "audit_date": "2026-10-09",
+  "evidence_type": "current_recipe_selector_reconstruction",
+  "trained_ebm_or_svc": false,
+  "changed_predictions": false,
+  "feature_table": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\outputs\\axis_corrected_features_v3_fpsfix\\fivecohort_axis_corrected_common_feature_table.csv",
+  "feature_table_sha256": "94c94f4c739aae47d771f0a26d00a38b60dc1bedffdd2dd521a0f5dec5aed11c",
+  "audit_script_sha256": "8d50239e54c31220a2618bc40504682907ad9c48c6065f0249f6d7a28527e299",
+  "python": "3.10.20",
+  "sklearn": "1.7.2",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "normalization": "domain_z; source selectors use source-normalized rows only",
+  "label_mapping": "current v3 gait_label: raw 3 merged into 2",
+  "n_feature_rows": 4022,
+  "n_raw_candidates": 1258,
+  "n_gate_candidate_columns": 1252,
+  "outputs_sha256": {
+    "active_selected_features.csv": "92828cdb7ec2356ec813d9ab56db6d833ac643fe18456797fa20b9d6942f3621",
+    "active_expert_feature_counts.csv": "185609edbb5a0cd72e3a926b8e031eac436bfdfca516c0ae908445701d9b7ba5",
+    "active_selector_counts_by_fold.csv": "972e1a6a1aba4d945b22014be80703028fad062d4bb9e17931338c33519879ce",
+    "pooled_ebm_public_fold_overlap.csv": "d5647ad9fb53dbda723b52442007ec19b6d175490dafe5f9807344adbb749bfb",
+    "source_sample_and_shrinkage_counts.csv": "bd2bdc265fdd89817d386521cf87c716ce06fe7caa2b9e28968848e40e303597"
+  },
+  "limitations": [
+    "No historical fitted-selector state or cached-model package-version proof.",
+    "No participant bootstrap or independent expert refit.",
+    "Counts cover only classifiers consumed by FINAL, not unused raw bundle models.",
+    "The gate consumes additional candidate descriptors outside classifier selection.",
+    "The main150-held-out selector is an extra reconstruction; the locked FINAL report evaluates four public outer cohorts.",
+    "Internal SVC calibration and EBM early stopping are not audited as grouped here."
+  ]
+}

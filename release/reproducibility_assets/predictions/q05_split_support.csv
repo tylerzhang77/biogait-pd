@@ -1,0 +1,6 @@
+﻿adapt_ratio,seed,n_adaptation_participants,n_test_participants,n_adaptation_segments,n_test_segments,adaptation_class_0,adaptation_class_1,adaptation_class_2,test_class_0,test_class_1,test_class_2
+0.6,42,90,60,646,423,224,235,187,156,158,109
+0.6,2024,90,60,632,437,222,236,174,158,157,122
+0.6,3407,90,60,646,423,236,227,183,144,166,113
+0.6,7,90,60,626,443,224,224,178,156,169,118
+0.6,99,90,60,648,421,231,232,185,149,161,111

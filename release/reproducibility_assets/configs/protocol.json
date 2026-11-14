@@ -1,0 +1,61 @@
+{
+  "protocol_id": "R2.M2.Q05.local_only_v1",
+  "status": "exploratory_conditional",
+  "reviewer_request": "Train a model using only the in-house adaptation subjects to quantify what external labelled data add.",
+  "feature_table": "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\outputs\\axis_corrected_features_v3_fpsfix\\fivecohort_axis_corrected_common_feature_table.csv",
+  "feature_count": 1258,
+  "train_setting": "in-house main150 only for both population and source roles",
+  "adapt_ratio": 0.6,
+  "seeds": [
+    42,
+    2024,
+    3407,
+    7,
+    99
+  ],
+  "participants_per_split": {
+    "adaptation": 90,
+    "test": 60
+  },
+  "public_labels_used": false,
+  "target_labels_used_for_fit_or_gate": false,
+  "target_access": "full unlabeled held-out test batch is used by domain_z normalization and source-similarity gate, matching the existing adaptation convention",
+  "source_gate": "one local source (main150); source weight is therefore exactly 1.0 and no cross-source routing is estimated",
+  "classifier_and_fusion": {
+    "ebm_selectkbest_k": 150,
+    "linear_roles": [
+      "C=0.1",
+      "C=1.0"
+    ],
+    "temperature": 0.8,
+    "expected_gait_score": "p1 + 2*p2",
+    "ordinal_thresholds": [
+      0.65,
+      1.45
+    ]
+  },
+  "reference_arms": [
+    "zero_shot_carepd_only",
+    "full_target_adaptive"
+  ],
+  "bootstrap": {
+    "n_bootstrap": 5000,
+    "seed": 20261010,
+    "participant_universe": 150,
+    "draws_shared_across_splits_variants_decoders": true,
+    "estimand": "equal-weight mean of five fixed-split patient metrics",
+    "conditional_on": [
+      "fixed split masks",
+      "saved fitted predictions",
+      "target statistics",
+      "fusion and decoder"
+    ],
+    "not_covered": [
+      "model-selection uncertainty",
+      "new random splits",
+      "new-centre variation",
+      "prospective deployment"
+    ]
+  },
+  "interpretation": "External-label contribution is exploratory; intervals crossing zero are not evidence of no effect or equivalence."
+}

@@ -1,0 +1,241 @@
+﻿train_setting,dataset,level,model,label,n_true,n_predicted,predicted_fraction,recall
+CAREPD-only,3DGait,patient_record,BioGait-PD,0,24,33,0.36666666666666664,0.7916666666666666
+CAREPD-only,3DGait,patient_record,BioGait-PD,1,42,46,0.5111111111111111,0.6428571428571429
+CAREPD-only,3DGait,patient_record,BioGait-PD,2,24,11,0.12222222222222222,0.375
+CAREPD-only,3DGait,segment,BioGait-PD,0,24,33,0.36666666666666664,0.7916666666666666
+CAREPD-only,3DGait,segment,BioGait-PD,1,42,46,0.5111111111111111,0.6428571428571429
+CAREPD-only,3DGait,segment,BioGait-PD,2,24,11,0.12222222222222222,0.375
+CAREPD-only,3DGait,patient_record,Speed-only EBM,0,24,41,0.45555555555555555,0.875
+CAREPD-only,3DGait,patient_record,Speed-only EBM,1,42,41,0.45555555555555555,0.5
+CAREPD-only,3DGait,patient_record,Speed-only EBM,2,24,8,0.08888888888888889,0.2916666666666667
+CAREPD-only,3DGait,segment,Speed-only EBM,0,24,41,0.45555555555555555,0.875
+CAREPD-only,3DGait,segment,Speed-only EBM,1,42,41,0.45555555555555555,0.5
+CAREPD-only,3DGait,segment,Speed-only EBM,2,24,8,0.08888888888888889,0.2916666666666667
+CAREPD-only,3DGait,patient_record,Speed+cadence+stride EBM,0,24,37,0.4111111111111111,0.8333333333333334
+CAREPD-only,3DGait,patient_record,Speed+cadence+stride EBM,1,42,40,0.4444444444444444,0.5714285714285714
+CAREPD-only,3DGait,patient_record,Speed+cadence+stride EBM,2,24,13,0.14444444444444443,0.5
+CAREPD-only,3DGait,segment,Speed+cadence+stride EBM,0,24,37,0.4111111111111111,0.8333333333333334
+CAREPD-only,3DGait,segment,Speed+cadence+stride EBM,1,42,40,0.4444444444444444,0.5714285714285714
+CAREPD-only,3DGait,segment,Speed+cadence+stride EBM,2,24,13,0.14444444444444443,0.5
+CAREPD-only,3DGait,patient_record,Pooled EBM (1258 candidates),0,24,34,0.37777777777777777,0.7083333333333334
+CAREPD-only,3DGait,patient_record,Pooled EBM (1258 candidates),1,42,39,0.43333333333333335,0.5714285714285714
+CAREPD-only,3DGait,patient_record,Pooled EBM (1258 candidates),2,24,17,0.18888888888888888,0.5
+CAREPD-only,3DGait,segment,Pooled EBM (1258 candidates),0,24,34,0.37777777777777777,0.7083333333333334
+CAREPD-only,3DGait,segment,Pooled EBM (1258 candidates),1,42,39,0.43333333333333335,0.5714285714285714
+CAREPD-only,3DGait,segment,Pooled EBM (1258 candidates),2,24,17,0.18888888888888888,0.5
+CAREPD-only,3DGait,patient_record,Pooled LR (target-normalized),0,24,29,0.32222222222222224,0.625
+CAREPD-only,3DGait,patient_record,Pooled LR (target-normalized),1,42,26,0.28888888888888886,0.38095238095238093
+CAREPD-only,3DGait,patient_record,Pooled LR (target-normalized),2,24,35,0.3888888888888889,0.75
+CAREPD-only,3DGait,segment,Pooled LR (target-normalized),0,24,29,0.32222222222222224,0.625
+CAREPD-only,3DGait,segment,Pooled LR (target-normalized),1,42,26,0.28888888888888886,0.38095238095238093
+CAREPD-only,3DGait,segment,Pooled LR (target-normalized),2,24,35,0.3888888888888889,0.75
+CAREPD-only,BMCLab,patient_record,BioGait-PD,0,18,13,0.30952380952380953,0.5555555555555556
+CAREPD-only,BMCLab,patient_record,BioGait-PD,1,14,23,0.5476190476190477,0.8571428571428571
+CAREPD-only,BMCLab,patient_record,BioGait-PD,2,10,6,0.14285714285714285,0.6
+CAREPD-only,BMCLab,segment,BioGait-PD,0,341,262,0.3354673495518566,0.6011730205278593
+CAREPD-only,BMCLab,segment,BioGait-PD,1,276,429,0.5492957746478874,0.8659420289855072
+CAREPD-only,BMCLab,segment,BioGait-PD,2,164,90,0.11523687580025609,0.5121951219512195
+CAREPD-only,BMCLab,patient_record,Speed-only EBM,0,18,17,0.40476190476190477,0.7777777777777778
+CAREPD-only,BMCLab,patient_record,Speed-only EBM,1,14,20,0.47619047619047616,0.9285714285714286
+CAREPD-only,BMCLab,patient_record,Speed-only EBM,2,10,5,0.11904761904761904,0.5
+CAREPD-only,BMCLab,segment,Speed-only EBM,0,341,367,0.469910371318822,0.8181818181818182
+CAREPD-only,BMCLab,segment,Speed-only EBM,1,276,338,0.4327784891165173,0.7898550724637681
+CAREPD-only,BMCLab,segment,Speed-only EBM,2,164,76,0.0973111395646607,0.4634146341463415
+CAREPD-only,BMCLab,patient_record,Speed+cadence+stride EBM,0,18,18,0.42857142857142855,0.8333333333333334
+CAREPD-only,BMCLab,patient_record,Speed+cadence+stride EBM,1,14,19,0.4523809523809524,0.8571428571428571
+CAREPD-only,BMCLab,patient_record,Speed+cadence+stride EBM,2,10,5,0.11904761904761904,0.5
+CAREPD-only,BMCLab,segment,Speed+cadence+stride EBM,0,341,319,0.4084507042253521,0.7272727272727273
+CAREPD-only,BMCLab,segment,Speed+cadence+stride EBM,1,276,381,0.4878361075544174,0.8297101449275363
+CAREPD-only,BMCLab,segment,Speed+cadence+stride EBM,2,164,81,0.10371318822023047,0.4817073170731707
+CAREPD-only,BMCLab,patient_record,Pooled EBM (1258 candidates),0,18,13,0.30952380952380953,0.5555555555555556
+CAREPD-only,BMCLab,patient_record,Pooled EBM (1258 candidates),1,14,23,0.5476190476190477,0.8571428571428571
+CAREPD-only,BMCLab,patient_record,Pooled EBM (1258 candidates),2,10,6,0.14285714285714285,0.6
+CAREPD-only,BMCLab,segment,Pooled EBM (1258 candidates),0,341,247,0.31626120358514725,0.5542521994134897
+CAREPD-only,BMCLab,segment,Pooled EBM (1258 candidates),1,276,416,0.5326504481434059,0.7862318840579711
+CAREPD-only,BMCLab,segment,Pooled EBM (1258 candidates),2,164,118,0.15108834827144688,0.5304878048780488
+CAREPD-only,BMCLab,patient_record,Pooled LR (target-normalized),0,18,13,0.30952380952380953,0.6111111111111112
+CAREPD-only,BMCLab,patient_record,Pooled LR (target-normalized),1,14,17,0.40476190476190477,0.5
+CAREPD-only,BMCLab,patient_record,Pooled LR (target-normalized),2,10,12,0.2857142857142857,0.5
+CAREPD-only,BMCLab,segment,Pooled LR (target-normalized),0,341,263,0.33674775928297057,0.5542521994134897
+CAREPD-only,BMCLab,segment,Pooled LR (target-normalized),1,276,251,0.3213828425096031,0.3695652173913043
+CAREPD-only,BMCLab,segment,Pooled LR (target-normalized),2,164,267,0.3418693982074264,0.5
+CAREPD-only,PD-GaM,patient_record,BioGait-PD,0,196,119,0.28132387706855794,0.5255102040816326
+CAREPD-only,PD-GaM,patient_record,BioGait-PD,1,158,216,0.5106382978723404,0.7215189873417721
+CAREPD-only,PD-GaM,patient_record,BioGait-PD,2,69,88,0.20803782505910165,0.7536231884057971
+CAREPD-only,PD-GaM,segment,BioGait-PD,0,783,491,0.28865373309817755,0.5261813537675607
+CAREPD-only,PD-GaM,segment,BioGait-PD,1,635,852,0.5008818342151675,0.7118110236220473
+CAREPD-only,PD-GaM,segment,BioGait-PD,2,283,358,0.2104644326866549,0.7279151943462897
+CAREPD-only,PD-GaM,patient_record,Speed-only EBM,0,196,147,0.3475177304964539,0.6020408163265306
+CAREPD-only,PD-GaM,patient_record,Speed-only EBM,1,158,219,0.5177304964539007,0.7784810126582279
+CAREPD-only,PD-GaM,patient_record,Speed-only EBM,2,69,57,0.1347517730496454,0.6376811594202898
+CAREPD-only,PD-GaM,segment,Speed-only EBM,0,783,677,0.39800117577895355,0.6526181353767561
+CAREPD-only,PD-GaM,segment,Speed-only EBM,1,635,772,0.4538506760728983,0.6771653543307087
+CAREPD-only,PD-GaM,segment,Speed-only EBM,2,283,252,0.14814814814814814,0.6431095406360424
+CAREPD-only,PD-GaM,patient_record,Speed+cadence+stride EBM,0,196,127,0.30023640661938533,0.5153061224489796
+CAREPD-only,PD-GaM,patient_record,Speed+cadence+stride EBM,1,158,221,0.5224586288416075,0.7151898734177216
+CAREPD-only,PD-GaM,patient_record,Speed+cadence+stride EBM,2,69,75,0.1773049645390071,0.7246376811594203
+CAREPD-only,PD-GaM,segment,Speed+cadence+stride EBM,0,783,616,0.36213991769547327,0.578544061302682
+CAREPD-only,PD-GaM,segment,Speed+cadence+stride EBM,1,635,725,0.4262198706643151,0.573228346456693
+CAREPD-only,PD-GaM,segment,Speed+cadence+stride EBM,2,283,360,0.21164021164021163,0.7137809187279152
+CAREPD-only,PD-GaM,patient_record,Pooled EBM (1258 candidates),0,196,125,0.29550827423167847,0.5357142857142857
+CAREPD-only,PD-GaM,patient_record,Pooled EBM (1258 candidates),1,158,214,0.5059101654846335,0.7151898734177216
+CAREPD-only,PD-GaM,patient_record,Pooled EBM (1258 candidates),2,69,84,0.19858156028368795,0.7391304347826086
+CAREPD-only,PD-GaM,segment,Pooled EBM (1258 candidates),0,783,528,0.31040564373897706,0.5363984674329502
+CAREPD-only,PD-GaM,segment,Pooled EBM (1258 candidates),1,635,811,0.47677836566725457,0.6614173228346457
+CAREPD-only,PD-GaM,segment,Pooled EBM (1258 candidates),2,283,362,0.21281599059376838,0.7067137809187279
+CAREPD-only,PD-GaM,patient_record,Pooled LR (target-normalized),0,196,122,0.28841607565011823,0.4897959183673469
+CAREPD-only,PD-GaM,patient_record,Pooled LR (target-normalized),1,158,229,0.541371158392435,0.7215189873417721
+CAREPD-only,PD-GaM,patient_record,Pooled LR (target-normalized),2,69,72,0.1702127659574468,0.5217391304347826
+CAREPD-only,PD-GaM,segment,Pooled LR (target-normalized),0,783,510,0.2998236331569665,0.48020434227330777
+CAREPD-only,PD-GaM,segment,Pooled LR (target-normalized),1,635,796,0.4679600235155791,0.5984251968503937
+CAREPD-only,PD-GaM,segment,Pooled LR (target-normalized),2,283,395,0.23221634332745444,0.47703180212014135
+CAREPD-only,T-SDU-PD,patient_record,BioGait-PD,0,96,187,0.49081364829396323,0.78125
+CAREPD-only,T-SDU-PD,patient_record,BioGait-PD,1,118,142,0.37270341207349084,0.3983050847457627
+CAREPD-only,T-SDU-PD,patient_record,BioGait-PD,2,167,52,0.13648293963254593,0.20958083832335328
+CAREPD-only,T-SDU-PD,segment,BioGait-PD,0,96,187,0.49081364829396323,0.78125
+CAREPD-only,T-SDU-PD,segment,BioGait-PD,1,118,142,0.37270341207349084,0.3983050847457627
+CAREPD-only,T-SDU-PD,segment,BioGait-PD,2,167,52,0.13648293963254593,0.20958083832335328
+CAREPD-only,T-SDU-PD,patient_record,Speed-only EBM,0,96,193,0.5065616797900262,0.8229166666666666
+CAREPD-only,T-SDU-PD,patient_record,Speed-only EBM,1,118,150,0.3937007874015748,0.4745762711864407
+CAREPD-only,T-SDU-PD,patient_record,Speed-only EBM,2,167,38,0.09973753280839895,0.19760479041916168
+CAREPD-only,T-SDU-PD,segment,Speed-only EBM,0,96,193,0.5065616797900262,0.8229166666666666
+CAREPD-only,T-SDU-PD,segment,Speed-only EBM,1,118,150,0.3937007874015748,0.4745762711864407
+CAREPD-only,T-SDU-PD,segment,Speed-only EBM,2,167,38,0.09973753280839895,0.19760479041916168
+CAREPD-only,T-SDU-PD,patient_record,Speed+cadence+stride EBM,0,96,174,0.4566929133858268,0.7708333333333334
+CAREPD-only,T-SDU-PD,patient_record,Speed+cadence+stride EBM,1,118,168,0.4409448818897638,0.5254237288135594
+CAREPD-only,T-SDU-PD,patient_record,Speed+cadence+stride EBM,2,167,39,0.10236220472440945,0.19760479041916168
+CAREPD-only,T-SDU-PD,segment,Speed+cadence+stride EBM,0,96,174,0.4566929133858268,0.7708333333333334
+CAREPD-only,T-SDU-PD,segment,Speed+cadence+stride EBM,1,118,168,0.4409448818897638,0.5254237288135594
+CAREPD-only,T-SDU-PD,segment,Speed+cadence+stride EBM,2,167,39,0.10236220472440945,0.19760479041916168
+CAREPD-only,T-SDU-PD,patient_record,Pooled EBM (1258 candidates),0,96,172,0.45144356955380577,0.6979166666666666
+CAREPD-only,T-SDU-PD,patient_record,Pooled EBM (1258 candidates),1,118,145,0.3805774278215223,0.3813559322033898
+CAREPD-only,T-SDU-PD,patient_record,Pooled EBM (1258 candidates),2,167,64,0.1679790026246719,0.2754491017964072
+CAREPD-only,T-SDU-PD,segment,Pooled EBM (1258 candidates),0,96,172,0.45144356955380577,0.6979166666666666
+CAREPD-only,T-SDU-PD,segment,Pooled EBM (1258 candidates),1,118,145,0.3805774278215223,0.3813559322033898
+CAREPD-only,T-SDU-PD,segment,Pooled EBM (1258 candidates),2,167,64,0.1679790026246719,0.2754491017964072
+CAREPD-only,T-SDU-PD,patient_record,Pooled LR (target-normalized),0,96,169,0.4435695538057743,0.6875
+CAREPD-only,T-SDU-PD,patient_record,Pooled LR (target-normalized),1,118,135,0.3543307086614173,0.4067796610169492
+CAREPD-only,T-SDU-PD,patient_record,Pooled LR (target-normalized),2,167,77,0.2020997375328084,0.2694610778443114
+CAREPD-only,T-SDU-PD,segment,Pooled LR (target-normalized),0,96,169,0.4435695538057743,0.6875
+CAREPD-only,T-SDU-PD,segment,Pooled LR (target-normalized),1,118,135,0.3543307086614173,0.4067796610169492
+CAREPD-only,T-SDU-PD,segment,Pooled LR (target-normalized),2,167,77,0.2020997375328084,0.2694610778443114
+five-cohort,3DGait,patient_record,BioGait-PD,0,24,36,0.4,0.875
+five-cohort,3DGait,patient_record,BioGait-PD,1,42,43,0.4777777777777778,0.6428571428571429
+five-cohort,3DGait,patient_record,BioGait-PD,2,24,11,0.12222222222222222,0.4166666666666667
+five-cohort,3DGait,segment,BioGait-PD,0,24,36,0.4,0.875
+five-cohort,3DGait,segment,BioGait-PD,1,42,43,0.4777777777777778,0.6428571428571429
+five-cohort,3DGait,segment,BioGait-PD,2,24,11,0.12222222222222222,0.4166666666666667
+five-cohort,3DGait,patient_record,Speed-only EBM,0,24,36,0.4,0.875
+five-cohort,3DGait,patient_record,Speed-only EBM,1,42,48,0.5333333333333333,0.6428571428571429
+five-cohort,3DGait,patient_record,Speed-only EBM,2,24,6,0.06666666666666667,0.25
+five-cohort,3DGait,segment,Speed-only EBM,0,24,36,0.4,0.875
+five-cohort,3DGait,segment,Speed-only EBM,1,42,48,0.5333333333333333,0.6428571428571429
+five-cohort,3DGait,segment,Speed-only EBM,2,24,6,0.06666666666666667,0.25
+five-cohort,3DGait,patient_record,Speed+cadence+stride EBM,0,24,38,0.4222222222222222,0.8333333333333334
+five-cohort,3DGait,patient_record,Speed+cadence+stride EBM,1,42,41,0.45555555555555555,0.5714285714285714
+five-cohort,3DGait,patient_record,Speed+cadence+stride EBM,2,24,11,0.12222222222222222,0.4583333333333333
+five-cohort,3DGait,segment,Speed+cadence+stride EBM,0,24,38,0.4222222222222222,0.8333333333333334
+five-cohort,3DGait,segment,Speed+cadence+stride EBM,1,42,41,0.45555555555555555,0.5714285714285714
+five-cohort,3DGait,segment,Speed+cadence+stride EBM,2,24,11,0.12222222222222222,0.4583333333333333
+five-cohort,3DGait,patient_record,Pooled EBM (1258 candidates),0,24,41,0.45555555555555555,0.8333333333333334
+five-cohort,3DGait,patient_record,Pooled EBM (1258 candidates),1,42,37,0.4111111111111111,0.5
+five-cohort,3DGait,patient_record,Pooled EBM (1258 candidates),2,24,12,0.13333333333333333,0.375
+five-cohort,3DGait,segment,Pooled EBM (1258 candidates),0,24,41,0.45555555555555555,0.8333333333333334
+five-cohort,3DGait,segment,Pooled EBM (1258 candidates),1,42,37,0.4111111111111111,0.5
+five-cohort,3DGait,segment,Pooled EBM (1258 candidates),2,24,12,0.13333333333333333,0.375
+five-cohort,3DGait,patient_record,Pooled LR (target-normalized),0,24,37,0.4111111111111111,0.625
+five-cohort,3DGait,patient_record,Pooled LR (target-normalized),1,42,26,0.28888888888888886,0.30952380952380953
+five-cohort,3DGait,patient_record,Pooled LR (target-normalized),2,24,27,0.3,0.4583333333333333
+five-cohort,3DGait,segment,Pooled LR (target-normalized),0,24,37,0.4111111111111111,0.625
+five-cohort,3DGait,segment,Pooled LR (target-normalized),1,42,26,0.28888888888888886,0.30952380952380953
+five-cohort,3DGait,segment,Pooled LR (target-normalized),2,24,27,0.3,0.4583333333333333
+five-cohort,BMCLab,patient_record,BioGait-PD,0,18,13,0.30952380952380953,0.6111111111111112
+five-cohort,BMCLab,patient_record,BioGait-PD,1,14,23,0.5476190476190477,0.9285714285714286
+five-cohort,BMCLab,patient_record,BioGait-PD,2,10,6,0.14285714285714285,0.6
+five-cohort,BMCLab,segment,BioGait-PD,0,341,255,0.3265044814340589,0.6217008797653959
+five-cohort,BMCLab,segment,BioGait-PD,1,276,441,0.5646606914212549,0.9094202898550725
+five-cohort,BMCLab,segment,BioGait-PD,2,164,85,0.1088348271446863,0.4817073170731707
+five-cohort,BMCLab,patient_record,Speed-only EBM,0,18,14,0.3333333333333333,0.7222222222222222
+five-cohort,BMCLab,patient_record,Speed-only EBM,1,14,23,0.5476190476190477,0.9285714285714286
+five-cohort,BMCLab,patient_record,Speed-only EBM,2,10,5,0.11904761904761904,0.5
+five-cohort,BMCLab,segment,Speed-only EBM,0,341,260,0.33290653008962867,0.6539589442815249
+five-cohort,BMCLab,segment,Speed-only EBM,1,276,448,0.5736235595390525,0.9166666666666666
+five-cohort,BMCLab,segment,Speed-only EBM,2,164,73,0.09346991037131883,0.4451219512195122
+five-cohort,BMCLab,patient_record,Speed+cadence+stride EBM,0,18,15,0.35714285714285715,0.7222222222222222
+five-cohort,BMCLab,patient_record,Speed+cadence+stride EBM,1,14,22,0.5238095238095238,0.9285714285714286
+five-cohort,BMCLab,patient_record,Speed+cadence+stride EBM,2,10,5,0.11904761904761904,0.5
+five-cohort,BMCLab,segment,Speed+cadence+stride EBM,0,341,299,0.382842509603073,0.6862170087976539
+five-cohort,BMCLab,segment,Speed+cadence+stride EBM,1,276,407,0.5211267605633803,0.8297101449275363
+five-cohort,BMCLab,segment,Speed+cadence+stride EBM,2,164,75,0.09603072983354674,0.4573170731707317
+five-cohort,BMCLab,patient_record,Pooled EBM (1258 candidates),0,18,11,0.2619047619047619,0.5555555555555556
+five-cohort,BMCLab,patient_record,Pooled EBM (1258 candidates),1,14,24,0.5714285714285714,0.9285714285714286
+five-cohort,BMCLab,patient_record,Pooled EBM (1258 candidates),2,10,7,0.16666666666666666,0.6
+five-cohort,BMCLab,segment,Pooled EBM (1258 candidates),0,341,250,0.3201024327784891,0.6099706744868035
+five-cohort,BMCLab,segment,Pooled EBM (1258 candidates),1,276,402,0.5147247119078106,0.7862318840579711
+five-cohort,BMCLab,segment,Pooled EBM (1258 candidates),2,164,129,0.16517285531370038,0.5
+five-cohort,BMCLab,patient_record,Pooled LR (target-normalized),0,18,21,0.5,0.8333333333333334
+five-cohort,BMCLab,patient_record,Pooled LR (target-normalized),1,14,8,0.19047619047619047,0.2857142857142857
+five-cohort,BMCLab,patient_record,Pooled LR (target-normalized),2,10,13,0.30952380952380953,0.6
+five-cohort,BMCLab,segment,Pooled LR (target-normalized),0,341,369,0.47247119078104993,0.7595307917888563
+five-cohort,BMCLab,segment,Pooled LR (target-normalized),1,276,158,0.2023047375160051,0.30434782608695654
+five-cohort,BMCLab,segment,Pooled LR (target-normalized),2,164,254,0.32522407170294493,0.5914634146341463
+five-cohort,PD-GaM,patient_record,BioGait-PD,0,196,114,0.2695035460992908,0.5153061224489796
+five-cohort,PD-GaM,patient_record,BioGait-PD,1,158,228,0.5390070921985816,0.759493670886076
+five-cohort,PD-GaM,patient_record,BioGait-PD,2,69,81,0.19148936170212766,0.7536231884057971
+five-cohort,PD-GaM,segment,BioGait-PD,0,783,503,0.29570840681951793,0.5261813537675607
+five-cohort,PD-GaM,segment,BioGait-PD,1,635,837,0.49206349206349204,0.6740157480314961
+five-cohort,PD-GaM,segment,BioGait-PD,2,283,361,0.21222810111699,0.7915194346289752
+five-cohort,PD-GaM,patient_record,Speed-only EBM,0,196,116,0.27423167848699764,0.4846938775510204
+five-cohort,PD-GaM,patient_record,Speed-only EBM,1,158,275,0.6501182033096927,0.8734177215189873
+five-cohort,PD-GaM,patient_record,Speed-only EBM,2,69,32,0.07565011820330969,0.4492753623188406
+five-cohort,PD-GaM,segment,Speed-only EBM,0,783,534,0.31393298059964725,0.5338441890166028
+five-cohort,PD-GaM,segment,Speed-only EBM,1,635,1018,0.5984714873603763,0.8125984251968504
+five-cohort,PD-GaM,segment,Speed-only EBM,2,283,149,0.08759553203997648,0.45936395759717313
+five-cohort,PD-GaM,patient_record,Speed+cadence+stride EBM,0,196,129,0.3049645390070922,0.5204081632653061
+five-cohort,PD-GaM,patient_record,Speed+cadence+stride EBM,1,158,232,0.5484633569739953,0.7721518987341772
+five-cohort,PD-GaM,patient_record,Speed+cadence+stride EBM,2,69,62,0.14657210401891252,0.6811594202898551
+five-cohort,PD-GaM,segment,Speed+cadence+stride EBM,0,783,626,0.3680188124632569,0.5938697318007663
+five-cohort,PD-GaM,segment,Speed+cadence+stride EBM,1,635,803,0.4720752498530276,0.662992125984252
+five-cohort,PD-GaM,segment,Speed+cadence+stride EBM,2,283,272,0.15990593768371547,0.657243816254417
+five-cohort,PD-GaM,patient_record,Pooled EBM (1258 candidates),0,196,134,0.31678486997635935,0.5612244897959183
+five-cohort,PD-GaM,patient_record,Pooled EBM (1258 candidates),1,158,212,0.5011820330969267,0.7088607594936709
+five-cohort,PD-GaM,patient_record,Pooled EBM (1258 candidates),2,69,77,0.18203309692671396,0.7391304347826086
+five-cohort,PD-GaM,segment,Pooled EBM (1258 candidates),0,783,575,0.33803644914756026,0.5721583652618135
+five-cohort,PD-GaM,segment,Pooled EBM (1258 candidates),1,635,768,0.4514991181657848,0.6188976377952756
+five-cohort,PD-GaM,segment,Pooled EBM (1258 candidates),2,283,358,0.2104644326866549,0.7597173144876325
+five-cohort,PD-GaM,patient_record,Pooled LR (target-normalized),0,196,129,0.3049645390070922,0.5255102040816326
+five-cohort,PD-GaM,patient_record,Pooled LR (target-normalized),1,158,215,0.508274231678487,0.6518987341772152
+five-cohort,PD-GaM,patient_record,Pooled LR (target-normalized),2,69,79,0.1867612293144208,0.4492753623188406
+five-cohort,PD-GaM,segment,Pooled LR (target-normalized),0,783,504,0.2962962962962963,0.4559386973180077
+five-cohort,PD-GaM,segment,Pooled LR (target-normalized),1,635,778,0.4573780129335685,0.5149606299212598
+five-cohort,PD-GaM,segment,Pooled LR (target-normalized),2,283,419,0.24632569077013522,0.43462897526501765
+five-cohort,T-SDU-PD,patient_record,BioGait-PD,0,96,165,0.4330708661417323,0.8541666666666666
+five-cohort,T-SDU-PD,patient_record,BioGait-PD,1,118,146,0.38320209973753283,0.4661016949152542
+five-cohort,T-SDU-PD,patient_record,BioGait-PD,2,167,70,0.1837270341207349,0.2934131736526946
+five-cohort,T-SDU-PD,segment,BioGait-PD,0,96,165,0.4330708661417323,0.8541666666666666
+five-cohort,T-SDU-PD,segment,BioGait-PD,1,118,146,0.38320209973753283,0.4661016949152542
+five-cohort,T-SDU-PD,segment,BioGait-PD,2,167,70,0.1837270341207349,0.2934131736526946
+five-cohort,T-SDU-PD,patient_record,Speed-only EBM,0,96,174,0.4566929133858268,0.78125
+five-cohort,T-SDU-PD,patient_record,Speed-only EBM,1,118,175,0.45931758530183725,0.559322033898305
+five-cohort,T-SDU-PD,patient_record,Speed-only EBM,2,167,32,0.08398950131233596,0.16766467065868262
+five-cohort,T-SDU-PD,segment,Speed-only EBM,0,96,174,0.4566929133858268,0.78125
+five-cohort,T-SDU-PD,segment,Speed-only EBM,1,118,175,0.45931758530183725,0.559322033898305
+five-cohort,T-SDU-PD,segment,Speed-only EBM,2,167,32,0.08398950131233596,0.16766467065868262
+five-cohort,T-SDU-PD,patient_record,Speed+cadence+stride EBM,0,96,166,0.4356955380577428,0.8229166666666666
+five-cohort,T-SDU-PD,patient_record,Speed+cadence+stride EBM,1,118,175,0.45931758530183725,0.5254237288135594
+five-cohort,T-SDU-PD,patient_record,Speed+cadence+stride EBM,2,167,40,0.10498687664041995,0.19161676646706588
+five-cohort,T-SDU-PD,segment,Speed+cadence+stride EBM,0,96,166,0.4356955380577428,0.8229166666666666
+five-cohort,T-SDU-PD,segment,Speed+cadence+stride EBM,1,118,175,0.45931758530183725,0.5254237288135594
+five-cohort,T-SDU-PD,segment,Speed+cadence+stride EBM,2,167,40,0.10498687664041995,0.19161676646706588
+five-cohort,T-SDU-PD,patient_record,Pooled EBM (1258 candidates),0,96,147,0.3858267716535433,0.6979166666666666
+five-cohort,T-SDU-PD,patient_record,Pooled EBM (1258 candidates),1,118,152,0.3989501312335958,0.4152542372881356
+five-cohort,T-SDU-PD,patient_record,Pooled EBM (1258 candidates),2,167,82,0.2152230971128609,0.3413173652694611
+five-cohort,T-SDU-PD,segment,Pooled EBM (1258 candidates),0,96,147,0.3858267716535433,0.6979166666666666
+five-cohort,T-SDU-PD,segment,Pooled EBM (1258 candidates),1,118,152,0.3989501312335958,0.4152542372881356
+five-cohort,T-SDU-PD,segment,Pooled EBM (1258 candidates),2,167,82,0.2152230971128609,0.3413173652694611
+five-cohort,T-SDU-PD,patient_record,Pooled LR (target-normalized),0,96,149,0.3910761154855643,0.5104166666666666
+five-cohort,T-SDU-PD,patient_record,Pooled LR (target-normalized),1,118,142,0.37270341207349084,0.3813559322033898
+five-cohort,T-SDU-PD,patient_record,Pooled LR (target-normalized),2,167,90,0.23622047244094488,0.2275449101796407
+five-cohort,T-SDU-PD,segment,Pooled LR (target-normalized),0,96,149,0.3910761154855643,0.5104166666666666
+five-cohort,T-SDU-PD,segment,Pooled LR (target-normalized),1,118,142,0.37270341207349084,0.3813559322033898
+five-cohort,T-SDU-PD,segment,Pooled LR (target-normalized),2,167,90,0.23622047244094488,0.2275449101796407

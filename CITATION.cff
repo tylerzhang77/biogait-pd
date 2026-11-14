@@ -21,6 +21,7 @@ authors:
   - family-names: Lu
     given-names: Hui
 repository-code: "https://github.com/tylerzhang77/biogait-pd"
+license: "MIT"
 keywords:
   - gait analysis
   - Parkinson disease

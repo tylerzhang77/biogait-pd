@@ -6,13 +6,12 @@ This repository does not include raw videos, in-house clinical records, derived 
 
 ## Reproducibility release
 
-The public release manifest, frozen paper protocol and machine-readable companions to the
-Supplementary tables are in `release/`. The release identifier is
-`biogait-pd-paper-revision-0.2.0`. Before publication, this identifier should be replaced or
-confirmed by a permanent Git tag and archive record. Restricted split manifests, per-unit
-predictions, selected-feature inventories and trained model files must be supplied through a
-controlled archive when permitted by the governing data-use approval; they are not claimed to be
-publicly available in this repository.
+The public release manifest, frozen paper protocol, machine-readable Supplementary tables and
+author-authorized participant-level reproducibility assets are in `release/`. The release
+identifier is `biogait-pd-paper-revision-0.2.0`. Before publication, this identifier should be
+confirmed by a permanent Git tag and archive record. Trained model checkpoints are not included
+yet because no serialized checkpoints were present in the source revision package; the release
+manifest records this remaining item explicitly.
 
 ## CARE-PD Data Access
 

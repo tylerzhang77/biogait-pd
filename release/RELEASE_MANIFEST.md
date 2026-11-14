@@ -15,19 +15,19 @@ versioned Git tag and a permanent archive record before publication.
 - `machine_readable/source_*.csv`: aggregate audit tables used to generate selected manuscript
   and Supplementary results. These files contain summary statistics, not raw videos or clinical
   records.
+- `reproducibility_assets/`: author-authorized participant-level predictions, adaptation split
+  assignments, selected-feature inventories and provenance manifests.
 - The executable Python entry points under `scripts/` and reusable package code under `src/`.
 - Input schemas under `examples/` and data-placement instructions under `docs/DATA.md`.
 
 ## Materials requiring a controlled or confidential archive
 
 The public repository does not contain raw videos, in-house clinical records, direct participant
-identifiers, large motion files or unrestricted patient-level feature tables. The following
-items should be supplied to the Editor and reviewers through a controlled archive if release is
-permitted by the governing data-use approval:
+identifiers or large motion files. The following items are either still required or should be
+attached as a versioned release asset if they are generated after this commit:
 
-- frozen split manifests;
-- per-unit prediction files and model checkpoints;
-- the selected-feature inventory for every fitted expert and fold;
+- trained model checkpoints for the exact reported fits;
+- SHA-256 checksums for every release member;
 - the exact restricted input tables needed to regenerate participant-level predictions.
 
 The final response letter must name the actual archive or release identifier used for these

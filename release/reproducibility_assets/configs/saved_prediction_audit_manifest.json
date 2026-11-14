@@ -1,0 +1,45 @@
+{
+  "audit_date": "2026-10-09",
+  "analysis": "saved_prediction_reanalysis_no_model_refit",
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "script_sha256": "7f72dd78777873668ff22f85722e9ec924fd7331916e0d105e8c0ace96ac37c3",
+  "inputs_sha256": {
+    "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\baseline_audit\\locked_baseline.json": "23ed916fa1007ea4760198e5b87d31208a1f8fd3cf888595820d2421d5b8cea7",
+    "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\res\\final_moe_ablation\\final_moe_ablation_segment_predictions.csv": "b41e6bcea273e3d53e75e360cb969448138708c6d336479cb3708852624a2a5a",
+    "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\outputs\\axis_corrected_features_v3_fpsfix\\fivecohort_axis_corrected_common_feature_table.csv": "94c94f4c739aae47d771f0a26d00a38b60dc1bedffdd2dd521a0f5dec5aed11c",
+    "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\x01_patient_evaluation\\sample_unit_map.csv": "39e0b13e72c0aa8467e4bce8d92dec0d7d0994460cbcc5d5ef33865e60768a69",
+    "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\x02_speed_baselines\\x02_segment_predictions.csv": "b82a9ee165ada9455fbcf5142b8192a712b96197164aafabc5bb487e3b162b39",
+    "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\x05_baselines\\x05_segment_predictions.csv": "ac524a381a205c6f792fbc8c273573e4b7c523eab60b1962f1627077c3ce5979",
+    "C:\\Users\\tyler\\Desktop\\retarget\\model\\parkinson_gait_project\\paper\\npj\\revision\\r1_1_tables_with_ci\\baseline_metrics_and_mean_ci.csv": "3dc3061ff853cd05f4ebb022634d1c5abecf82b43f139524470c0048f8cac7b6"
+  },
+  "outputs_sha256": {
+    "metrics_saved_predictions.csv": "608ca90e80ec3d250ab58f32e9c9543eeaabf4f1b3349965640aa1bb629e8d08",
+    "confusion_saved_predictions.csv": "5e82be046b48eae00ffaf69b25abb8e19dc9f9dcf8cdba8ad6fcdf02bcf13edc",
+    "prediction_class_distribution.csv": "5496f3fec9d1803a9dd80900b1237687742eab91390f5fc27b5a2c579ba49264",
+    "paired_full_minus_baseline.csv": "e0abfb3da3fe5f583065bea6bb1451454e95d46ba764e98a508dbafbceedfa84",
+    "record_predictions_identity_matched.csv": "ebdb588d80d363b7de26d37e46cb5b251424ec4f6f41d7c996e366d9c7085510"
+  },
+  "decoder": "mean record probabilities then p1+2*p2; thresholds 0.65/1.45",
+  "units": "X01 label-independent record/state mapping; participant clusters",
+  "bootstrap": {
+    "n": 2000,
+    "seed": 20261008,
+    "per_cohort_seed": "SEED + adler32(dataset + '|lodo||')",
+    "shared_draws_across_models": true,
+    "four_cohort_mean": "equal mean of cohort F1 at each independent within-cohort draw"
+  },
+  "excluded_arms": [
+    "X05 lr_coral (Q09)",
+    "X02 pooled_inductive (Q01)"
+  ],
+  "limitations": [
+    "Conditional on saved fitted models, normalization, temperature and decoder.",
+    "Does not capture refitting, test-statistics estimation, architecture search or site-sampling uncertainty.",
+    "Baselines share evaluation/access conditions but not historical development or tuning budgets.",
+    "Saved output identities verified; original training input/version manifests remain incomplete.",
+    "No original CARE-PD encoder or random-forest benchmark model was retrained here.",
+    "All paired intervals are exploratory and unadjusted for multiple comparisons."
+  ]
+}

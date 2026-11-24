@@ -4,6 +4,8 @@ The public code release is versioned separately from the manuscript files. The c
 release is `biogait-pd-paper-revision-0.2.3`, to be published at Git tag `v0.2.3` and accompanied
 by a permanent archive record rather than only an unpinned branch.
 
+Permanent archive DOI: <https://doi.org/10.5281/zenodo.24489679>
+
 ## Main Experiments
 
 The release keeps the scripts needed for the main manuscript analyses:

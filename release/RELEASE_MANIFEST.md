@@ -3,6 +3,7 @@
 Release identifier: `biogait-pd-paper-revision-0.2.3`
 Git tag: `v0.2.3`
 Release commit: the commit referenced by tag `v0.2.3`
+Permanent archive DOI: <https://doi.org/10.5281/zenodo.24489679>
 
 This directory contains the public, machine-readable result tables and the frozen protocol
 configuration used to organize the manuscript revision. It is designed to be paired with a

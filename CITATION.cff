@@ -21,6 +21,10 @@ authors:
   - family-names: Lu
     given-names: Hui
 repository-code: "https://github.com/tylerzhang77/biogait-pd"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24489679"
+    description: "Zenodo archive for release v0.2.3"
 license: "MIT"
 keywords:
   - gait analysis

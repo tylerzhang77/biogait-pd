@@ -19,6 +19,8 @@ assets included. The checkpoint manifests retain the
 qualification that the historical fitted objects were not preserved and that the exported models
 were refitted from the frozen protocol and verified against the archived predictions.
 
+Permanent archive DOI: <https://doi.org/10.5281/zenodo.24489679>
+
 ## CARE-PD Data Access
 
 CARE-PD is available for non-commercial research through the official release:

@@ -9,7 +9,7 @@ Before making the repository public, confirm:
 - [x] Add author-authorized split manifests, per-unit predictions and selected-feature inventories to `release/reproducibility_assets/`.
 - [x] Export and add reconstructed verified fold-specific model checkpoints, with manifests and hashes.
 - [x] Add the de-identified in-house segment-level feature table and provenance manifest.
-- [ ] Replace the provisional BibTeX entry in `README.md` after the manuscript DOI is available.
+- [x] Add the permanent software-archive DOI to the release documentation.
 - [x] Add the official CARE-PD data-access URL, DOI and benchmark-code link.
 - [x] Confirm that the de-identified segment-level feature table, splits and predictions can be shared.
 - [x] Confirm that no raw videos, patient identifiers, clinical records or cached `.npz` files are committed; serialized checkpoints are intentionally included under `release/reproducibility_assets/models/reconstructed/`.

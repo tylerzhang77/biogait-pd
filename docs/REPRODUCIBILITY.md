@@ -1,7 +1,7 @@
 # Reproducibility Notes
 
 The public code release is versioned separately from the manuscript files. The checkpoint-containing
-release is `biogait-pd-paper-revision-0.2.2`, to be published at Git tag `v0.2.2` and accompanied
+release is `biogait-pd-paper-revision-0.2.3`, to be published at Git tag `v0.2.3` and accompanied
 by a permanent archive record rather than only an unpinned branch.
 
 ## Main Experiments

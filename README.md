@@ -14,7 +14,7 @@ be obtained from the official CARE-PD release.
 The public release manifest, frozen paper protocol, machine-readable Supplementary tables,
 author-authorized participant-level reproducibility assets and reconstructed verified checkpoints
 are in `release/`. The release identifier for this revision is
-`biogait-pd-paper-revision-0.2.2`, with the final checkpoint, feature-table and verification
+`biogait-pd-paper-revision-0.2.3`, with the final checkpoint, feature-table and verification
 assets included. The checkpoint manifests retain the
 qualification that the historical fitted objects were not preserved and that the exported models
 were refitted from the frozen protocol and verified against the archived predictions.
@@ -113,8 +113,8 @@ If you use this code, please cite the associated manuscript once available.
   title = {BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts},
   author = {Zhang, Tianyao and others},
   year = {2026},
-  version = {0.2.2},
-  url = {https://github.com/tylerzhang77/biogait-pd/tree/v0.2.2}
+  version = {0.2.3},
+  url = {https://github.com/tylerzhang77/biogait-pd/tree/v0.2.3}
 }
 ```
 

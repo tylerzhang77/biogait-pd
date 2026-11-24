@@ -1,7 +1,7 @@
 {
   "title": "BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts",
   "description": "Versioned code, de-identified in-house segment-level processed features, reconstructed verified model bundles and machine-readable reproducibility assets for the BioGait-PD paper revision.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "upload_type": "software",
   "license": "MIT",
   "keywords": [

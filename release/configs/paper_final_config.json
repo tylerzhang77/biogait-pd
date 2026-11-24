@@ -1,5 +1,5 @@
 {
-  "release_id": "biogait-pd-paper-revision-0.2.1",
+  "release_id": "biogait-pd-paper-revision-0.2.2",
   "task": "retrospective cross-cohort ordinal gait-score prediction",
   "label_mapping": {
     "raw_score_0": 0,
@@ -27,10 +27,14 @@
   },
   "source_adaptive_route": {
     "kappa": 25.0,
-    "tau": 2.0,
+    "tau": 1.0,
     "uniform_blend": 0.25,
-    "reliability_power": 0.5,
-    "alpha_local": 0.625
+    "reliability_power": 1.0,
+    "alpha_rule": "source_when_uncertain",
+    "alpha_low": 0.6,
+    "alpha_high": 0.95,
+    "population_linear_correction_weight": 0.2,
+    "population_ebm_weight": 0.8
   },
   "target_centre_adaptation": {
     "fractions": [0.1, 0.2, 0.4, 0.6],

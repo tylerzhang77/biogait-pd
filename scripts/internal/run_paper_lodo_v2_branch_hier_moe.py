@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -28,8 +29,13 @@ from run_carepd_paper_baseline import LABELS, patient_aggregate  # noqa: E402
 from run_carepd_similarity_scope_role_moe import source_similarity_ranking  # noqa: E402
 
 
-FEATURE_ROOT = ROOT / "outputs" / "axis_corrected_features_v2"
-FEATURE_TABLE = FEATURE_ROOT / "fivecohort_axis_corrected_common_feature_table.csv"
+FEATURE_ROOT = ROOT / "outputs" / "axis_corrected_features_v3_fpsfix"
+FEATURE_TABLE = Path(
+    os.environ.get(
+        "BIOGAIT_FEATURE_TABLE",
+        str(FEATURE_ROOT / "fivecohort_axis_corrected_common_feature_table.csv"),
+    )
+)
 OUT_DIR = ROOT / "paper" / "res" / "lodo_v2_branch_hier_moe"
 PRED_DIR = OUT_DIR / "predictions"
 
@@ -52,7 +58,7 @@ META_COLS = [
     "fps",
 ]
 
-FINAL_SOURCE_CFG = {"kappa": 25.0, "tau": 2.0, "uniform_blend": 0.25, "reliability_power": 0.5}
+FINAL_SOURCE_CFG = {"kappa": 25.0, "tau": 1.0, "uniform_blend": 0.25, "reliability_power": 1.0}
 FINAL_PL_GATE_CFG = {
     "top_k": 3,
     "gap": 0.25,
@@ -75,8 +81,12 @@ FINAL_LOCAL_GATE_CFG = {
     "base_width": 0.05,
     "uncertainty_scale": 0.5,
 }
+FINAL_ALPHA_LOW = 0.6
+FINAL_ALPHA_HIGH = 0.95
+FINAL_ALPHA_MODE = "source_when_uncertain"
+# Kept for older component-ablation helpers that import this symbol.
 FINAL_ALPHA_LOCAL = 0.625
-FINAL_MODEL_NAME = "BranchHierMoE_v2_k25_tau2_blend0.25_rp0.5_PL0_HLG0_alpha0.625"
+FINAL_MODEL_NAME = "BranchHierMoE_v2_k25_tau1_blend0.25_rp1_PL0_HLG0_alphaentropy_0.6_0.95"
 
 
 def markdown_table(df: pd.DataFrame) -> str:
@@ -211,6 +221,7 @@ def run_one_scope(
 
     source_weights = similarity_reliability_weights(ranking, counts, **FINAL_SOURCE_CFG)
     entropy = normalized_entropy(source_weights)
+    alpha = FINAL_ALPHA_LOW + (FINAL_ALPHA_HIGH - FINAL_ALPHA_LOW) * entropy
 
     p_pl, info_pl = population_local_branch(
         raw_train,
@@ -230,7 +241,7 @@ def run_one_scope(
         FINAL_SOURCE_CFG,
         FINAL_LOCAL_GATE_CFG,
     )
-    p_final = (1.0 - FINAL_ALPHA_LOCAL) * p_pl + FINAL_ALPHA_LOCAL * p_local
+    p_final = (1.0 - alpha) * p_pl + alpha * p_local
 
     result = evaluate_predictions(train_setting, scope, meta, p_final, PRED_DIR)
     diag = pd.DataFrame(
@@ -239,7 +250,7 @@ def run_one_scope(
                 "train_setting": train_setting,
                 "test_scope": scope,
                 "model": FINAL_MODEL_NAME,
-                "alpha_local_branch": FINAL_ALPHA_LOCAL,
+                "alpha_local_branch": alpha,
                 "source_weight_entropy": entropy,
                 "pl_selected_expert": info_pl.get("selected_expert", ""),
                 "local_selected_expert": info_local.get("local_selected_expert", ""),
@@ -302,7 +313,9 @@ def main() -> None:
                 "source_cfg": FINAL_SOURCE_CFG,
                 "pl_gate_cfg": FINAL_PL_GATE_CFG,
                 "local_gate_cfg": FINAL_LOCAL_GATE_CFG,
-                "alpha_local": FINAL_ALPHA_LOCAL,
+                "alpha_low": FINAL_ALPHA_LOW,
+                "alpha_high": FINAL_ALPHA_HIGH,
+                "alpha_mode": FINAL_ALPHA_MODE,
             },
             f,
             indent=2,

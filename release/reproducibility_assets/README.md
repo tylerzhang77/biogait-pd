@@ -3,6 +3,7 @@
 This directory contains the participant-level and audit-level assets authorized for the public
 BioGait-PD release. The files are organized by role:
 
+- `data/`: de-identified segment-level in-house feature table and its provenance manifest.
 - `predictions/`: identity-matched recording/state predictions, baseline comparisons and the
   in-house local-only control outputs.
 - `splits/`: adaptation split assignments, split-level metrics and paired comparisons.
@@ -10,7 +11,9 @@ BioGait-PD release. The files are organized by role:
   manifests.
 - `configs/`: provenance, protocol and prediction-audit manifests.
 
-The identifiers in these files are analysis identifiers used by the study pipeline. No raw video,
+The identifiers in these files are analysis identifiers used by the study pipeline. The released
+in-house data artifact contains generated anonymous participant codes and no original identifiers.
+No raw video,
 clinical record, contact information or directly identifying metadata is included in this release.
 The release of participant-level derived files follows the author-confirmed data-release decision;
 the final GitHub release should still be checked against the governing ethics and data-use terms.

@@ -1,9 +1,9 @@
 train_setting,test_center,n,max_abs_probability_difference,predictions_equal,decision
-CAREPD-only,3DGait,90,1.1102230246251565e-16,True,ordinal_threshold
-CAREPD-only,BMCLab,781,1.1102230246251565e-16,True,ordinal_threshold
-CAREPD-only,PD-GaM,1701,1.1102230246251565e-16,True,ordinal_threshold
-CAREPD-only,T-SDU-PD,381,1.1102230246251565e-16,True,ordinal_threshold
-five-cohort,3DGait,90,1.1102230246251565e-16,True,ordinal_threshold
-five-cohort,BMCLab,781,1.1102230246251565e-16,True,ordinal_threshold
-five-cohort,PD-GaM,1701,1.1102230246251565e-16,True,ordinal_threshold
-five-cohort,T-SDU-PD,381,1.1102230246251565e-16,True,ordinal_threshold
+CAREPD-only,3DGait,90,2.220446049250313e-16,True,ordinal_threshold
+CAREPD-only,BMCLab,781,2.220446049250313e-16,True,ordinal_threshold
+CAREPD-only,PD-GaM,1701,2.220446049250313e-16,True,ordinal_threshold
+CAREPD-only,T-SDU-PD,381,2.220446049250313e-16,True,ordinal_threshold
+five-cohort,3DGait,90,1.3877787807814457e-16,True,ordinal_threshold
+five-cohort,BMCLab,781,1.6653345369377348e-16,True,ordinal_threshold
+five-cohort,PD-GaM,1701,2.220446049250313e-16,True,ordinal_threshold
+five-cohort,T-SDU-PD,381,1.6653345369377348e-16,True,ordinal_threshold

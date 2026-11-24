@@ -1,9 +1,11 @@
 # Data Preparation
 
-This repository contains executable code, aggregate machine-readable results and an authorized
-set of derived participant-level reproducibility assets. It intentionally excludes raw videos,
-in-house clinical records, the full feature tables, trained checkpoints and large cached motion
-files.
+This repository contains executable code, aggregate machine-readable results, reconstructed
+checkpoints and an authorized set of derived reproducibility assets. It also includes the
+de-identified in-house segment-level processed feature table at
+`release/reproducibility_assets/data/inhouse_features_segment_level_1069.csv`.
+Raw videos, in-house clinical records, direct participant identifiers and large cached motion
+files remain unavailable.
 
 ## Public CARE-PD Data
 
@@ -54,6 +56,19 @@ Each retargeted `.npz` file should contain:
 - `qpos`: an array of shape `(frames, generalized_coordinates)`.
 - `fps`: optional scalar frame rate. If absent, the pipeline assumes 30 Hz.
 
+## Released in-house feature table
+
+The released table contains 1,069 segment rows from 150 participants, 1,258 model-derived feature
+columns, generated anonymous `patient_id` values from 1 to 150, a generated `segment_index`, and
+the mapped three-class `gait_label`. The anonymous patient code is repeated across that
+participant's segments and cannot be mapped back to the original identifier from the release.
+
+The table is derived from the final `axis_corrected_features_v3_fpsfix` source table. It excludes
+source paths, cohort and recording metadata, medication fields, raw gait scores and direct
+identifiers. `release/reproducibility_assets/data/segment_feature_table_manifest.json` records its
+provenance and checksums. The simplified public schema requires an adapter before use with the
+internal five-cohort loader.
+
 ## Released derived assets and restricted data
 
 The release includes author-authorized derived predictions, adaptation split assignments and
@@ -63,8 +78,9 @@ contact information. Their release remains subject to the governing ethics appro
 agreements.
 
 The in-house clinical cohort itself cannot be redistributed because of participant privacy and
-institutional data-use restrictions. Raw videos, clinical records and full feature tables are
-therefore not included in the public repository. Reconstructed verified model checkpoints are
+institutional data-use restrictions. Raw videos and clinical records are therefore not included
+in the public repository. The de-identified processed feature table described above is the
+released exception. Reconstructed verified model checkpoints are
 provided separately under `release/reproducibility_assets/models/reconstructed/`; their manifests
 identify the required feature-table hash and the refitting/verification status. The public CARE-PD
 data should be obtained from the official provider under its applicable terms.

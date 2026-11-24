@@ -4,12 +4,12 @@
   "n_serialized_model_bundles": 36,
   "total_model_bytes": 60960267,
   "verification_file": "final_prediction_verification.csv",
-  "verification_sha256": "2cd5522358fd57113237a7a9275f6617dde87181c6f08bdc80e3c9d82e478407",
+  "verification_sha256": "080d0841245adf549c057cd44202698b61a25fdf421dc7afeca0191e5c4f569d",
   "members": [
     {
       "path": "final_prediction_verification.csv",
-      "bytes": 651,
-      "sha256": "2cd5522358fd57113237a7a9275f6617dde87181c6f08bdc80e3c9d82e478407"
+      "bytes": 646,
+      "sha256": "080d0841245adf549c057cd44202698b61a25fdf421dc7afeca0191e5c4f569d"
     },
     {
       "path": "CAREPD-only/3DGait/checkpoint_manifest.json",

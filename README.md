@@ -2,19 +2,20 @@
 
 BioGait-PD is an interpretable kinematic modelling pipeline for cross-cohort gait-impairment rating prediction. The code in this release supports feature extraction from retargeted skeletal motion, CARE-PD-style leave-one-dataset-out evaluation, in-house target-centre adaptation, subject-level evaluation and feature-dictionary generation.
 
-This repository does not include raw videos, in-house clinical records, the full feature tables,
-or large intermediate motion files. The release includes author-authorized derived participant-level
-predictions, adaptation splits, selected-feature inventories and reconstructed verified model
-bundles under `release/reproducibility_assets/models/reconstructed/`. Public CARE-PD data should be obtained from the official
-CARE-PD release, and private in-house input data should be placed locally following the schema in
-`docs/DATA.md`.
+This repository does not include raw videos, in-house clinical records, direct participant
+identifiers or large intermediate motion files. It includes a de-identified, segment-level
+processed feature table for the in-house cohort under
+`release/reproducibility_assets/data/`, together with derived predictions, adaptation splits,
+selected-feature inventories and reconstructed verified model bundles. Public CARE-PD data should
+be obtained from the official CARE-PD release.
 
 ## Reproducibility release
 
 The public release manifest, frozen paper protocol, machine-readable Supplementary tables,
 author-authorized participant-level reproducibility assets and reconstructed verified checkpoints
-are in `release/`. The release identifier should be updated to the final checkpoint-containing
-tag and permanent archive record before submission. The checkpoint manifests retain the
+are in `release/`. The release identifier for this revision is
+`biogait-pd-paper-revision-0.2.2`, with the final checkpoint, feature-table and verification
+assets included. The checkpoint manifests retain the
 qualification that the historical fitted objects were not preserved and that the exported models
 were refitted from the frozen protocol and verified against the archived predictions.
 
@@ -112,11 +113,14 @@ If you use this code, please cite the associated manuscript once available.
   title = {BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts},
   author = {Zhang, Tianyao and others},
   year = {2026},
-  version = {0.2.1},
-  url = {https://github.com/tylerzhang77/biogait-pd/tree/v0.2.1}
+  version = {0.2.2},
+  url = {https://github.com/tylerzhang77/biogait-pd/tree/v0.2.2}
 }
 ```
 
 ## Data and Privacy
 
-The in-house videos and clinical records are not shared because they contain sensitive health information. Public CARE-PD data should be accessed from the official CARE-PD data provider under its applicable terms.
+The in-house videos and clinical records are not shared because they contain sensitive health
+information. The released in-house feature table is a de-identified processed artifact and does
+not contain direct identifiers or source paths. Public CARE-PD data should be accessed from the
+official CARE-PD data provider under its applicable terms.

@@ -1,7 +1,7 @@
 # Reproducibility Notes
 
 The public code release is versioned separately from the manuscript files. The checkpoint-containing
-release is `biogait-pd-paper-revision-0.2.1`, to be published at Git tag `v0.2.1` and accompanied
+release is `biogait-pd-paper-revision-0.2.2`, to be published at Git tag `v0.2.2` and accompanied
 by a permanent archive record rather than only an unpinned branch.
 
 ## Main Experiments
@@ -19,6 +19,11 @@ The manuscript protocol is frozen in `release/configs/paper_final_config.json`. 
 companions to the Supplementary tables and aggregate audit tables are in
 `release/machine_readable/`. Their filenames follow the Supplementary table numbering used in the
 manuscript.
+
+The released in-house feature artifact is
+`release/reproducibility_assets/data/inhouse_features_segment_level_1069.csv`. It contains 1,069
+segments from 150 participants and 1,258 model-derived features, with generated anonymous patient
+codes and mapped labels. Raw videos and clinical records remain restricted.
 
 ## Randomness
 
@@ -57,7 +62,8 @@ retained in the model manifests and should be stated in the Code Availability te
 ## Restricted reproducibility materials
 
 The public repository intentionally excludes raw videos, in-house clinical records, direct
-participant identifiers, large motion files and unrestricted patient-level feature tables. If the
+participant identifiers and large motion files. The de-identified processed segment-level feature
+artifact described above is included. If the
 data-use approval permits controlled sharing, the feature tables and any additional restricted
 inputs should be deposited in a confidential or controlled archive and referenced by its permanent
 identifier in the response letter. The public repository must not imply that raw or restricted

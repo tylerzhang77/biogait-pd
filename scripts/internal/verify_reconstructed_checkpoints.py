@@ -3,14 +3,16 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
+sys.path.insert(0, str(ROOT / "scripts" / "internal"))
 
 from run_biogait_moe_final_ablation_report import (  # noqa: E402
     FINAL,
@@ -26,8 +28,13 @@ from run_paper_lodo_v2_branch_hier_moe import (  # noqa: E402
 )
 
 
-CHECKPOINT_ROOT = ROOT / "paper" / "res" / "reconstructed_checkpoints"
-SAVED_PREDICTIONS = ROOT / "paper" / "res" / "final_moe_ablation" / "final_moe_ablation_segment_predictions.csv"
+CHECKPOINT_ROOT = Path(os.environ.get("BIOGAIT_CHECKPOINT_ROOT", str(ROOT / "paper" / "res" / "reconstructed_checkpoints")))
+SAVED_PREDICTIONS = Path(
+    os.environ.get(
+        "BIOGAIT_SAVED_PREDICTIONS",
+        str(ROOT / "paper" / "res" / "final_moe_ablation" / "final_moe_ablation_segment_predictions.csv"),
+    )
+)
 VARIANT = "final_similarity_gated_biogait_moe"
 
 

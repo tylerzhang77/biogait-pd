@@ -1,0 +1,39 @@
+{
+  "status": "public_release",
+  "source_feature_table": "final axis_corrected_features_v3_fpsfix feature table (restricted source file)",
+  "source_sha256": "94c94f4c739aae47d771f0a26d00a38b60dc1bedffdd2dd521a0f5dec5aed11c",
+  "source_version": "axis_corrected_features_v3_fpsfix",
+  "source_rows_total": 4022,
+  "source_inhouse_segment_rows": 1069,
+  "source_inhouse_participants": 150,
+  "model_feature_count": 1258,
+  "output_file": "inhouse_features_segment_level_1069.csv",
+  "output_sha256": "452589c03e8024772189a1d0eb1b3f72ef4d291d2220eaca1a07d62634a0b714",
+  "output_shape": [
+    1069,
+    1261
+  ],
+  "row_definition": "One row per in-house gait segment in the final v3_fpsfix feature table",
+  "included_columns": [
+    "segment_index",
+    "patient_id (new anonymous 1-150 code)",
+    "1,258 model-derived feature columns",
+    "gait_label"
+  ],
+  "removed_columns": [
+    "original patient_id/subject",
+    "original segment_id/sample_id",
+    "retarget_npz",
+    "dataset",
+    "group_id",
+    "trial",
+    "frames",
+    "fps",
+    "medication",
+    "other",
+    "updrs_gait_raw"
+  ],
+  "output_bytes": 26083926,
+  "release_path": "release/reproducibility_assets/data/inhouse_features_segment_level_1069.csv",
+  "release_state": "publicly released in this versioned repository"
+}

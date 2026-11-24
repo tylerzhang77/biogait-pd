@@ -1,0 +1,24 @@
+{
+  "title": "BioGait-PD: interpretable kinematic modelling of gait-impairment ratings across clinical cohorts",
+  "description": "Versioned code, de-identified in-house segment-level processed features, reconstructed verified model bundles and machine-readable reproducibility assets for the BioGait-PD paper revision.",
+  "version": "0.2.2",
+  "upload_type": "software",
+  "license": "MIT",
+  "keywords": [
+    "Parkinson disease",
+    "gait analysis",
+    "kinematic modelling",
+    "cross-cohort evaluation",
+    "interpretable machine learning"
+  ],
+  "creators": [
+    {"name": "Zhang, Tianyao"},
+    {"name": "Yao, Siqiong"},
+    {"name": "Liu, Yuechen"},
+    {"name": "Chen, Qixuan"},
+    {"name": "Jing, Ming"},
+    {"name": "Chen, Guofang"},
+    {"name": "Xu, Chen"},
+    {"name": "Lu, Hui"}
+  ]
+}

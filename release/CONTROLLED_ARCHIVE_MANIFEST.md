@@ -22,7 +22,7 @@ input materials and does not itself constitute a confidential archive.
 ## Archive completion fields
 
 - Archive provider: `[TO BE COMPLETED]`
-- Permanent identifier or DOI: <https://doi.org/10.5281/zenodo.24489679>
+- Permanent identifier or DOI: <https://doi.org/10.5281/zenodo.24505794>
 - Version/tag: `[TO BE COMPLETED]`
 - Access route for the Editor and reviewers: `[TO BE COMPLETED]`
 - Ethics/data-use approval for controlled sharing: `[TO BE COMPLETED]`

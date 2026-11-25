@@ -5,7 +5,7 @@ Before making the repository public, confirm:
 - [ ] Add a license file selected by all contributors and institutions.
 - [x] Add a release identifier and frozen paper protocol under `release/`.
 - [x] Add machine-readable Supplementary table companions and aggregate audit tables.
-- [ ] Add the permanent Git tag `v0.2.3` after the checkpoint-containing commit is pushed.
+- [x] Add the permanent Git tag `v0.2.4` after the checkpoint-containing commit is pushed.
 - [x] Add author-authorized split manifests, per-unit predictions and selected-feature inventories to `release/reproducibility_assets/`.
 - [x] Export and add reconstructed verified fold-specific model checkpoints, with manifests and hashes.
 - [x] Add the de-identified in-house segment-level feature table and provenance manifest.

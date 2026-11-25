@@ -1,10 +1,10 @@
 # Reproducibility Notes
 
 The public code release is versioned separately from the manuscript files. The checkpoint-containing
-release is `biogait-pd-paper-revision-0.2.3`, to be published at Git tag `v0.2.3` and accompanied
+release is `biogait-pd-paper-revision-0.2.4`, published at Git tag `v0.2.4` and accompanied
 by a permanent archive record rather than only an unpinned branch.
 
-Permanent archive DOI: <https://doi.org/10.5281/zenodo.24489679>
+Permanent archive DOI: <https://doi.org/10.5281/zenodo.24505794>
 
 ## Main Experiments
 

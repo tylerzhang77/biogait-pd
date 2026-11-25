@@ -1,5 +1,5 @@
 {
-  "release_id": "biogait-pd-paper-revision-0.2.3",
+  "release_id": "biogait-pd-paper-revision-0.2.4",
   "task": "retrospective cross-cohort ordinal gait-score prediction",
   "label_mapping": {
     "raw_score_0": 0,
